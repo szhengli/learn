@@ -48,7 +48,7 @@ export default {
 	},
 	methods:{
 		bshow(){
-			this.$router.push("/bar")
+			this.$router.push("/foo")
 			
 		},
 		show(info){
