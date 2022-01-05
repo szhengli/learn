@@ -1,20 +1,24 @@
 import VueRouter from 'vue-router'
 import Vue from "vue"
-
-
+import Demo from "./components/Demo"
+import Server from "./components/Server"
 import App from "./App.vue"
 
 Vue.use(VueRouter)
 
 
-const Foo = { template: '<div>james</div>' }
+const Foo = { template: '<div>foo</div>' }
 const Bar = { template: '<div>bar</div>' }
 
 const routes= [
 
-	  { path: '/main', component: App , name: 'Main'},
-	   { path: '/bar', component: Bar , name: 'Bar'},
-	   { path: '/foo', component: Foo , name: 'Foo'}
+	   { path: '/main', component: App , name: 'Main'},
+
+
+	   { path:'/demo/:id', component: Demo, name: "Demo",
+	   		children:[
+				{ path: 'foo', component: Foo , name: 'Foo'},
+			]}
 ]
 
 

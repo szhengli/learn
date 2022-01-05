@@ -6,9 +6,9 @@
 			   <br>
 	-----------------<br>
 	   </div>
-	   
+
 	</div>
-	
+
 </template>
 
 <script>
@@ -17,7 +17,7 @@
 	export default {
 		methods:{
 			demo(){
-				this.$router.push('/foo')
+				this.$router.push('/bar')
 				this.$emit("callshow", "msg from son")
 			}
 		},
@@ -44,8 +44,8 @@
 				mount: 4,
 				school: "beijing from son"
 			}
-		}  
-  
+		}
+
   }
 
 </script>

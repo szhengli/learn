@@ -6,7 +6,7 @@
 
 <style>
 </style>
-<template>  
+<template>
 	<div align="center">
 		</br> </br>
 						分支发版情况查询  </br> </br>
@@ -18,17 +18,15 @@
 			      :value="item.value">
 			    </el-option>
 			  </el-select>
-			  
-			  
-			  
+
 			  </el-aside>
-		
-		  
+
+
 		  <el-table v-if="this.show"
 		    :data="datas"
 		    style="width: 100%"
 		    :row-class-name="tableRowClassName" >
-		  	<el-table-column 
+		  	<el-table-column
 		  	  prop="service"
 		  	  label="服务"
 		  	  width="180"
@@ -59,15 +57,15 @@
 			  label="删除时间"
 			  >
 			</el-table-column>
-		  
+
 		  </el-table>
-		  
 
 
-	
-	
 
-  
+
+
+
+
   </div>
 </template>
 
@@ -82,7 +80,7 @@
 </style>
 
 <script>
-	
+
 export default {
 
 	    methods: {
@@ -94,33 +92,33 @@ export default {
 				}
 				return '';
 			},
-		 
+
 		 show_branch(){
 			 var self=this
 			 console.log(this.branch)
 			 sessionStorage.setItem('selectedRelease', this.branch)
-			 let selectedRelease = sessionStorage.getItem("selectedRelease") 
+			 let selectedRelease = sessionStorage.getItem("selectedRelease")
 			 console.log(sessionStorage.getItem("selectedRelease") + "  ////////")
-			 
+
 			 this.axios.post('/api/svn/get_release_records/', {
 			     branch: selectedRelease,
 			     lastName: 'Flintstone'
 			   })
 			   .then(function (response) {
-			 	self.datas = response.data;		
+			 	self.datas = response.data;
 			 //	console.log(self.datas);
-			 	
+
 			   })
 			   .catch(function (error) {
 			     console.log(error);
 			   });
 			   self.show = true
 		 }
-		 
+
 	    },
-		
-	
-	 mounted(){   
+
+
+	 mounted(){
 
 		           var self=this
 					this.axios.get('/api/svn/get_all_branches/', {
@@ -128,16 +126,16 @@ export default {
 						lastName: 'Flintstone'
 					  })
 					  .then(function (response) {
-									
-						self.options= response.data;		
+
+						self.options= response.data;
 					//	console.log(self.options);
-						
+
 					  })
 					  .catch(function (error) {
 						console.log(error);
 					  });
-					  
-					  
+
+
 					  let selectedRelease = sessionStorage.getItem("selectedRelease")
 					  if (selectedRelease){
 						  this.branch = selectedRelease
@@ -148,8 +146,8 @@ export default {
 						  console.log("!!!!!!!!!!!!")
 						  //console.log(selectedRelease)
 					  }
-					  
-			
+
+
 				},
 	 data(){
 		 return {
@@ -160,9 +158,9 @@ export default {
 			 show: false
 		 }
 	 }
- 
+
  }
- 
- 
+
+
 </script>
 

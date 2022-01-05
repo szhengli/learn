@@ -1,22 +1,29 @@
 <template>
-	
-	<div> 
-	
+
+	<div>
+
 	<button @click="bshow" > test</button>
+    <transition name="slide-right">
 	<router-view></router-view>
-	<button @click="test" > change</button>
+    </transition>
+	<button @click="show" > change</button>
+    <button @click="sub" > sub</button>
 	<br>
-	
-	<Son ref="son" @callshow="show"></Son>
-	
+.............. <br>
+
+
+
+
+
 	</div>
 </template>
 
 <script>
-	
+
 import Vue from 'vue'
 
 import Son from "./Son.vue"
+
 import { mapState } from 'vuex'
 import { mapMutations } from 'vuex'
 import { mapActions } from 'vuex'
@@ -26,14 +33,14 @@ import { createNamespacedHelpers } from 'vuex'
 
 export default {
 	components:{
-		Son
+		Son,
 	},
 	data: function() {
 		return {
 			school: "shuyang from parent",
-		
+
 		}
-		
+
 	},
 	computed:{
 		...mapState({
@@ -44,17 +51,23 @@ export default {
 			sidebar: state => state.sidebar,
 			device: state => state.device
 		})
-	
+
 	},
 	methods:{
+
+	  sub(){
+      this.$router.push({name:"Server"})
+    },
 		bshow(){
-			this.$router.push( "/foo")
-			
+
+			this.$router.push({name:"Demo", params:{id: 'james'}})
+
+
 		},
 		show(info){
 		//	this.changeDevice({type: 'changeDevice', device: 'computer'})
 			//console.log(school)
-			console.log(info)
+      this.$router.push( "/demo/james/foo")
 			//console.log(this.$store.state.changeControl.sidebar)
 		},
 		...mapMutations([
@@ -70,12 +83,12 @@ export default {
 				number: 2
 			})
 			console.log(this.long)
-			
+
 
 		}
 	}
-}	
-	
+}
+
 </script>
 
 <style>
