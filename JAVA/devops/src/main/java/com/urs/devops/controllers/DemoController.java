@@ -1,9 +1,10 @@
 package com.urs.devops.controllers;
 
-import com.urs.devops.mappers.StudentMapper;
-import com.urs.devops.mappers.StudentMapper2;
-import org.mybatis.spring.annotation.MapperScan;
+import com.urs.devops.dao.StudentMapper;
+import com.urs.devops.dao.StudentMapper2;
+import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
@@ -23,17 +24,39 @@ public class DemoController {
     private StudentMapper studentMapper;
 
     @Autowired
-    private   StudentMapper2 studentMapper2;
+    private  StudentMapper2 studentMapper2;
+
+
+
+
 
     @RequestMapping("/say")
     public ModelAndView say(){
 
         Student student = studentMapper.findByName("james");
         Student student2 = studentMapper2.SelectStudent2(2);
+        HashMap student3 = studentMapper2.SelectStudent3(3);
+
+        Student[] student4 = studentMapper.findByColumn("place", "suzhou");
         System.out.println("///////////////////");
+
+        System.out.println(student4);
+
+
+        System.out.println(student3);
         System.out.println(student2);
         System.out.println(student);
+        System.out.println("//////////////、、、、、/////");
+      //  System.out.println(request.getURI());
         System.out.println("///////////////////");
+
+        System.out.println("///xxx////////////////");
+
+        for (Student s : student4) {
+            System.out.println(s.getName());
+        }
+
+        System.out.println("////xxx///////////////");
 
         HashMap<String, String> s = new HashMap<String, String>();
 
@@ -42,6 +65,7 @@ public class DemoController {
         String[] names = {"server","ecs", "slb"};
         page.addObject("student",student);
         page.addObject("student2",student2);
+        page.addObject("student3",student3);
         page.addObject("show", true);
         page.setViewName("hello");
         return page ;

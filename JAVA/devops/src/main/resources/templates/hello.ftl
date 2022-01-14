@@ -12,6 +12,8 @@ ${student.place}
 <br>
 
  ${student2.place}
+ <br>
+ ${student3.place}
 
 
 </table>
