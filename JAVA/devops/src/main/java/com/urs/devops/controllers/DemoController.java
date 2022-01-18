@@ -6,7 +6,10 @@ import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 import com.urs.devops.entity.*;
 //import com.urs.devops.mappers.StudentMapper2 ;
@@ -25,6 +28,15 @@ public class DemoController {
 
     @Autowired
     private  StudentMapper2 studentMapper2;
+
+    @GetMapping("/hello")
+    public String hello(@RequestParam String name,
+                                    Model model){
+        Student student = studentMapper.findByName(name);
+        model.addAttribute("student", student);
+        return "index";
+    }
+
 
 
 
