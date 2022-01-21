@@ -119,6 +119,14 @@ export default {
 
 
 	 mounted(){
+				this.axios({ method: 'post',
+				             url:"http://localhost:8080/demo/hello3",
+				             headers: {'city' : 'suzhou'},
+						   }).then(function(response){
+					console.log(response.data)
+				}).catch(function(err){
+					console.log(err)
+				})
 
 		           var self=this
 					this.axios.get('/api/svn/get_all_branches/', {

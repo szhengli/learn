@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "james.city",
+      "type": "java.lang.String",
+      "description": "Description for james.city."
+  }
+] }

@@ -6,10 +6,14 @@ import com.urs.devops.dao.StudentMapper;
 import com.urs.devops.dao.StudentMapper2;
 import com.urs.devops.impl.SchoolServiceImpl;
 import com.urs.devops.interfaces.SchoolService;
+import com.urs.devops.utils.StudentNotFindException;
 import org.apache.ibatis.session.SqlSession;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.*;
 
 
@@ -23,17 +27,38 @@ public class UrsController {
     }
     private final SchoolServiceImpl schoolService ;
 
+
     @Transactional
-    @GetMapping("/show/{name}")
-    public Student show(@PathVariable String name){
+    @GetMapping("/students/{name}")
+    public ResponseEntity<Object> show(@PathVariable String name){
         Student student = schoolService.haveClass(name);
+
+        if (student == null) {
+            throw new StudentNotFindException();
+        }
         UsageTracked usageTracked = (UsageTracked) schoolService;
         usageTracked.increaseUseCount();
+
         System.out.println("increased");
-        return  student;
+        ResponseEntity<Object>  res = new ResponseEntity<>(student, HttpStatus.OK);
+        return res ;
     }
 
+    @PostMapping("/students")
+    public ResponseEntity<Object> addStudent(@RequestBody Student student){
+        System.out.println(student);
+        schoolService.haveClass2(student);
+        return new ResponseEntity<>("added successfully", HttpStatus.CREATED);
+    }
 
+    @GetMapping("/students")
+    public ResponseEntity<Object>  listStudents(){
+
+        Student[] students = schoolService.listStudents();
+
+        ResponseEntity<Object>  res = new ResponseEntity<>(students, HttpStatus.OK);
+        return res ;
+    }
 
 
 }

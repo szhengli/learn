@@ -4,12 +4,11 @@ import com.urs.devops.dao.StudentMapper;
 import com.urs.devops.dao.StudentMapper2;
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import com.urs.devops.entity.*;
 //import com.urs.devops.mappers.StudentMapper2 ;
@@ -17,17 +16,38 @@ import java.util.HashMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+
 @Controller
 @RequestMapping("/demo")
 public class DemoController {
 
-    private static Logger logging = LoggerFactory.getLogger(DemoController.class);
+    private static final Logger logging = LoggerFactory.getLogger(DemoController.class);
 
     @Autowired
     private StudentMapper studentMapper;
 
     @Autowired
     private  StudentMapper2 studentMapper2;
+
+    @Value("${james.city}")
+    private String city;
+
+    @GetMapping("/hello2")
+    @CrossOrigin( maxAge = 3600)
+    @ResponseBody
+    public String hello2(){
+        return  "hello 2 world: " +  city ;
+    }
+
+
+    @PostMapping("/hello3")
+    @CrossOrigin( origins = "http://127.0.0.1:8010")
+    @ResponseBody
+    public String hello3(){
+        return  "hello 2 world" ;
+    }
+
+
 
     @GetMapping("/hello")
     public String hello(@RequestParam String name,
@@ -80,6 +100,7 @@ public class DemoController {
         page.addObject("student3",student3);
         page.addObject("show", true);
         page.setViewName("hello");
+
         return page ;
 
     }

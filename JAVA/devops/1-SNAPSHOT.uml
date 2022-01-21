@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>MAVEN</ID>
+  <OriginalElement>com.urs:devops:0.0.1-SNAPSHOT</OriginalElement>
+  <nodes>
+    <node x="0.0" y="768.69910847787">com.urs:devops:0.0.1-SNAPSHOT</node>
+    <node x="183.5" y="1695.29910847787">com.netflix.curator:curator-framework:jar:1.1.16</node>
+    <node x="690.0" y="2192.6378625897105">com.netflix.curator:curator-framework:jar:1.1.16/com.netflix.curator:curator-client:jar:1.1.16</node>
+    <node x="1149.0" y="1806.5741084778701">com.netflix.curator:curator-framework:jar:1.1.16/com.netflix.curator:curator-client:jar:1.1.16/org.slf4j:slf4j-api:jar:1.7.30</node>
+    <node x="711.0" y="2410.7991084778696">com.netflix.curator:curator-framework:jar:1.1.16/com.google.guava:guava:jar:11.0.1</node>
+    <node x="1154.5" y="2410.7991084778696">com.netflix.curator:curator-framework:jar:1.1.16/com.google.guava:guava:jar:11.0.1/com.google.code.findbugs:jsr305:jar:1.3.9</node>
+    <node x="697.0" y="2024.94375">com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3</node>
+    <node x="1136.5" y="1975.3241084778701">com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/org.slf4j:slf4j-log4j12:jar:1.7.30</node>
+    <node x="1457.0" y="2188.168221067581">com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/org.slf4j:slf4j-log4j12:jar:1.7.30/log4j:log4j:jar:1.2.17</node>
+    <node x="1157.5" y="2235.79910847787">com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/log4j:log4j:jar:1.2.15</node>
+    <node x="1459.5" y="2241.04910847787">com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/log4j:log4j:jar:1.2.15/javax.mail:mail:jar:1.4</node>
+    <node x="1607.5" y="2241.04910847787">com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/log4j:log4j:jar:1.2.15/javax.mail:mail:jar:1.4/javax.activation:activation:jar:1.1</node>
+    <node x="1160.5" y="2194.79910847787">com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/jline:jline:jar:0.9.94</node>
+    <node x="1158.0" y="2016.3241084778701">com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/org.jboss.netty:netty:jar:3.2.2.Final</node>
+    <node x="219.0" y="2513.2991084778696">org.apache.dubbo:dubbo:jar:3.0.2.1</node>
+    <node x="686.5" y="287.1991084778699">org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE</node>
+    <node x="1139.5" y="85.67499999999995">org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE/org.springframework:spring-aop:jar:5.2.12.RELEASE</node>
+    <node x="1133.5" y="167.67499999999995">org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE/org.springframework:spring-beans:jar:5.2.12.RELEASE</node>
+    <node x="1119.5" y="126.67499999999995">org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE/org.springframework:spring-expression:jar:5.2.12.RELEASE</node>
+    <node x="661.0" y="2615.7991084778696">org.apache.dubbo:dubbo:jar:3.0.2.1/com.alibaba.spring:spring-context-support:jar:1.0.8</node>
+    <node x="704.5" y="2451.7991084778696">org.apache.dubbo:dubbo:jar:3.0.2.1/org.javassist:javassist:jar:3.23.1-GA</node>
+    <node x="705.5" y="2492.7991084778696">org.apache.dubbo:dubbo:jar:3.0.2.1/io.netty:netty-all:jar:4.1.55.Final</node>
+    <node x="714.0" y="2574.7991084778696">org.apache.dubbo:dubbo:jar:3.0.2.1/com.google.code.gson:gson:jar:2.8.6</node>
+    <node x="698.0" y="1230.443221067581">org.apache.dubbo:dubbo:jar:3.0.2.1/org.yaml:snakeyaml:jar:1.26</node>
+    <node x="706.0" y="2533.7991084778696">org.apache.dubbo:dubbo:jar:3.0.2.1/com.alibaba:fastjson:jar:1.2.70</node>
+    <node x="685.0" y="2656.7991084778696">org.apache.dubbo:dubbo:jar:3.0.2.1/org.roaringbitmap:RoaringBitmap:jar:0.9.0</node>
+    <node x="1155.5" y="2656.7991084778696">org.apache.dubbo:dubbo:jar:3.0.2.1/org.roaringbitmap:RoaringBitmap:jar:0.9.0/org.roaringbitmap:shims:jar:0.9.0</node>
+    <node x="216.0" y="172.3241084778699">org.projectlombok:lombok:jar:1.16.18</node>
+    <node x="195.5" y="2697.7991084778696">org.springframework:spring-aspects:jar:5.2.12.RELEASE</node>
+    <node x="687.5" y="2697.7991084778696">org.springframework:spring-aspects:jar:5.2.12.RELEASE/org.aspectj:aspectjweaver:jar:1.9.6</node>
+    <node x="176.0" y="131.3241084778699">mysql:mysql-connector-java:jar:8.0.22</node>
+    <node x="167.5" y="602.57410847787">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE</node>
+    <node x="672.0" y="939.762862589711">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE</node>
+    <node x="1137.0" y="1107.130721067581">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot:jar:2.3.7.RELEASE</node>
+    <node x="1094.0" y="1305.443221067581">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.3.7.RELEASE</node>
+    <node x="1090.5" y="882.130721067581">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE</node>
+    <node x="1427.0" y="966.5003625897109">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+    <node x="1596.0" y="966.5003625897109">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+    <node x="1434.5" y="925.5003625897109">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3</node>
+    <node x="1609.0" y="925.5003625897109">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3/org.apache.logging.log4j:log4j-api:jar:2.13.3</node>
+    <node x="1442.5" y="1787.693221067581">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.30</node>
+    <node x="1108.0" y="784.94910847787">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/jakarta.annotation:jakarta.annotation-api:jar:1.3.5</node>
+    <node x="657.5" y="796.262862589711">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE</node>
+    <node x="1121.5" y="743.94910847787">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3</node>
+    <node x="1413.0" y="825.255721067581">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.11.3</node>
+    <node x="1434.0" y="572.012862589711">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3/com.fasterxml.jackson.core:jackson-core:jar:2.11.3</node>
+    <node x="1107.0" y="500.33124999999995">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.3</node>
+    <node x="1102.0" y="825.94910847787">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.3</node>
+    <node x="1071.0" y="541.33125">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.3</node>
+    <node x="649.5" y="857.762862589711">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.7.RELEASE</node>
+    <node x="1113.5" y="923.130721067581">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.7.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.41</node>
+    <node x="1145.5" y="582.33125">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.7.RELEASE/org.glassfish:jakarta.el:jar:3.0.3</node>
+    <node x="1095.5" y="984.130721067581">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.7.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.41</node>
+    <node x="695.5" y="172.42499999999995">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework:spring-web:jar:5.2.12.RELEASE</node>
+    <node x="684.0" y="104.42499999999995">org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework:spring-webmvc:jar:5.2.12.RELEASE</node>
+    <node x="147.0" y="658.818221067581">org.springframework.boot:spring-boot-starter-freemarker:jar:2.3.7.RELEASE</node>
+    <node x="696.0" y="898.762862589711">org.springframework.boot:spring-boot-starter-freemarker:jar:2.3.7.RELEASE/org.freemarker:freemarker:jar:2.3.30</node>
+    <node x="661.0" y="457.9161595394746">org.springframework.boot:spring-boot-starter-freemarker:jar:2.3.7.RELEASE/org.springframework:spring-context-support:jar:5.2.12.RELEASE</node>
+    <node x="157.0" y="768.69910847787">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1</node>
+    <node x="657.0" y="1103.762862589711">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.7.RELEASE</node>
+    <node x="1147.5" y="1387.443221067581">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.7.RELEASE/com.zaxxer:HikariCP:jar:3.4.5</node>
+    <node x="1138.5" y="459.33124999999995">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.7.RELEASE/org.springframework:spring-jdbc:jar:5.2.12.RELEASE</node>
+    <node x="1146.0" y="398.33124999999995">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.7.RELEASE/org.springframework:spring-jdbc:jar:5.2.12.RELEASE/org.springframework:spring-tx:jar:5.2.12.RELEASE</node>
+    <node x="625.5" y="1144.762862589711">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:2.2.1</node>
+    <node x="706.0" y="1021.762862589711">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.mybatis:mybatis:jar:3.5.9</node>
+    <node x="685.0" y="980.762862589711">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.mybatis:mybatis-spring:jar:2.0.6</node>
+    <node x="155.5" y="966.07410847787">org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE</node>
+    <node x="624.0" y="1271.443221067581">org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.3.7.RELEASE</node>
+    <node x="1110.5" y="1264.443221067581">org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-actuator:jar:2.3.7.RELEASE</node>
+    <node x="679.5" y="1185.762862589711">org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE/io.micrometer:micrometer-core:jar:1.5.9</node>
+    <node x="1130.5" y="1066.130721067581">org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE/io.micrometer:micrometer-core:jar:1.5.9/org.hdrhistogram:HdrHistogram:jar:2.1.12</node>
+    <node x="1138.0" y="1025.130721067581">org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE/io.micrometer:micrometer-core:jar:1.5.9/org.latencyutils:LatencyUtils:jar:2.0.3</node>
+    <node x="223.0" y="5.25">com.alibaba:druid:jar:1.0.20</node>
+    <node x="704.5" y="41.0">com.alibaba:druid:jar:1.0.20/com.alibaba:jconsole:jar:1.8.0</node>
+    <node x="714.0" y="0.0">com.alibaba:druid:jar:1.0.20/com.alibaba:tools:jar:1.8.0</node>
+    <node x="169.0" y="1330.6991084778701">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE</node>
+    <node x="680.5" y="1500.2333115281062">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-test:jar:2.3.7.RELEASE</node>
+    <node x="637.5" y="1582.2333115281062">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.7.RELEASE</node>
+    <node x="701.0" y="1729.06875">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+    <node x="1141.0" y="1655.1991084778701">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+    <node x="1424.0" y="1726.193221067581">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+    <node x="1623.0" y="1726.193221067581">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
+    <node x="671.0" y="1353.443221067581">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3</node>
+    <node x="1111.5" y="1346.443221067581">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3/jakarta.activation:jakarta.activation-api:jar:1.2.2</node>
+    <node x="694.0" y="1541.2333115281062">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.assertj:assertj-core:jar:3.16.1</node>
+    <node x="702.0" y="1312.443221067581">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.hamcrest:hamcrest:jar:2.2</node>
+    <node x="695.5" y="1978.44375">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3</node>
+    <node x="1127.5" y="2057.32410847787">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3</node>
+    <node x="1425.0" y="1998.4491084778701">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3/org.apiguardian:apiguardian-api:jar:1.1.0</node>
+    <node x="1441.0" y="1850.568221067581">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3/org.opentest4j:opentest4j:jar:1.2.0</node>
+    <node x="1401.0" y="2059.44910847787">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3/org.junit.platform:junit-platform-commons:jar:1.6.3</node>
+    <node x="1114.5" y="2118.32410847787">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-params:jar:5.6.3</node>
+    <node x="1117.0" y="1895.568221067581">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-engine:jar:5.6.3</node>
+    <node x="1410.0" y="1937.4491084778701">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-engine:jar:5.6.3/org.junit.platform:junit-platform-engine:jar:1.6.3</node>
+    <node x="689.5" y="2344.718221067581">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.mockito:mockito-core:jar:3.3.3</node>
+    <node x="1138.5" y="2287.79910847787">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.mockito:mockito-core:jar:3.3.3/net.bytebuddy:byte-buddy:jar:1.10.18</node>
+    <node x="1119.5" y="2369.7991084778696">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.mockito:mockito-core:jar:3.3.3/net.bytebuddy:byte-buddy-agent:jar:1.10.18</node>
+    <node x="1144.5" y="2328.79910847787">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.mockito:mockito-core:jar:3.3.3/org.objenesis:objenesis:jar:2.6</node>
+    <node x="669.5" y="2151.6378625897105">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.mockito:mockito-junit-jupiter:jar:3.3.3</node>
+    <node x="699.0" y="1770.06875">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+    <node x="1134.5" y="1701.4491084778701">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+    <node x="694.5" y="717.380721067581">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-core:jar:5.2.12.RELEASE</node>
+    <node x="1145.0" y="357.33124999999995">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-core:jar:5.2.12.RELEASE/org.springframework:spring-jcl:jar:5.2.12.RELEASE</node>
+    <node x="697.0" y="1062.762862589711">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-test:jar:5.2.12.RELEASE</node>
+    <node x="692.5" y="1688.06875">org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.xmlunit:xmlunit-core:jar:2.7.0</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.urs:devops:0.0.1-SNAPSHOT" target="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1" relationship="MAVEN_DEPENDENCY">
+      <point x="33.5" y="-0.0" />
+      <point x="-93.5" y="-0.0" />
+    </edge>
+    <edge source="com.netflix.curator:curator-framework:jar:1.1.16/com.netflix.curator:curator-client:jar:1.1.16" target="com.netflix.curator:curator-framework:jar:1.1.16/com.netflix.curator:curator-client:jar:1.1.16/org.slf4j:slf4j-api:jar:1.7.30" relationship="MAVEN_DEPENDENCY">
+      <point x="50.5" y="-0.0" />
+      <point x="899.0" y="2203.1378625897105" />
+      <point x="899.0" y="1998.8628625897109" />
+      <point x="939.0" y="1998.8628625897109" />
+      <point x="939.0" y="1811.8241084778701" />
+      <point x="-35.0" y="-5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-test:jar:5.2.12.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-core:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="-43.5" y="-5.25" />
+      <point x="564.0" y="1068.012862589711" />
+      <point x="564.0" y="733.130721067581" />
+      <point x="-46.0" y="5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE/io.micrometer:micrometer-core:jar:1.5.9" target="org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE/io.micrometer:micrometer-core:jar:1.5.9/org.latencyutils:LatencyUtils:jar:2.0.3" relationship="MAVEN_DEPENDENCY">
+      <point x="61.0" y="-5.25" />
+      <point x="939.0" y="1191.012862589711" />
+      <point x="939.0" y="1035.630721067581" />
+      <point x="-46.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.3" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.11.3" relationship="MAVEN_DEPENDENCY">
+      <point x="82.0" y="7.0" />
+      <point x="1339.0" y="843.44910847787" />
+      <point x="1339.0" y="835.755721067581" />
+      <point x="-70.5" y="-0.0" />
+    </edge>
+    <edge source="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.7.RELEASE/org.springframework:spring-jdbc:jar:5.2.12.RELEASE/org.springframework:spring-tx:jar:5.2.12.RELEASE" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE/org.springframework:spring-beans:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="38.0" y="-0.0" />
+      <point x="1317.0" y="408.83124999999995" />
+      <point x="1317.0" y="185.17499999999995" />
+      <point x="50.5" y="7.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3" relationship="MAVEN_DEPENDENCY">
+      <point x="93.5" y="-7.0" />
+      <point x="1379.0" y="885.630721067581" />
+      <point x="1379.0" y="930.7503625897109" />
+      <point x="-49.0" y="-5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-engine:jar:5.6.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3/org.apiguardian:apiguardian-api:jar:1.1.0" relationship="MAVEN_DEPENDENCY">
+      <point x="67.0" y="-0.0" />
+      <point x="1339.0" y="1906.068221067581" />
+      <point x="1339.0" y="2008.9491084778701" />
+      <point x="-58.5" y="-0.0" />
+    </edge>
+    <edge source="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1" target="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.mybatis:mybatis:jar:3.5.9" relationship="MAVEN_DEPENDENCY">
+      <point x="93.5" y="-0.0" />
+      <point x="474.0" y="779.19910847787" />
+      <point x="474.0" y="1032.262862589711" />
+      <point x="-34.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3" target="com.netflix.curator:curator-framework:jar:1.1.16/com.netflix.curator:curator-client:jar:1.1.16/org.slf4j:slf4j-api:jar:1.7.30" relationship="MAVEN_DEPENDENCY">
+      <point x="-49.0" y="5.25" />
+      <point x="1339.0" y="941.2503625897109" />
+      <point x="1339.0" y="1822.3241084778701" />
+      <point x="35.0" y="5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="81.5" y="-9.75" />
+      <point x="374.0" y="1331.4491084778701" />
+      <point x="374.0" y="706.7182210675811" />
+      <point x="524.0" y="706.7182210675811" />
+      <point x="524.0" y="957.262862589711" />
+      <point x="-68.5" y="7.0" />
+    </edge>
+    <edge source="com.urs:devops:0.0.1-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="33.5" y="1.909090909090878" />
+      <point x="127.0" y="781.1081993869609" />
+      <point x="127.0" y="976.57410847787" />
+      <point x="-95.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3/org.apiguardian:apiguardian-api:jar:1.1.0" relationship="MAVEN_DEPENDENCY">
+      <point x="56.5" y="2.625" />
+      <point x="1339.0" y="2070.44910847787" />
+      <point x="1339.0" y="2008.9491084778701" />
+      <point x="-58.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework:spring-webmvc:jar:5.2.12.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-core:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="-56.5" y="-0.0" />
+      <point x="594.0" y="114.92499999999995" />
+      <point x="594.0" y="726.130721067581" />
+      <point x="-46.0" y="-1.75" />
+    </edge>
+    <edge source="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/org.slf4j:slf4j-log4j12:jar:1.7.30" target="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/org.slf4j:slf4j-log4j12:jar:1.7.30/log4j:log4j:jar:1.2.17" relationship="MAVEN_DEPENDENCY">
+      <point x="47.5" y="-0.0" />
+      <point x="1369.0" y="1985.8241084778701" />
+      <point x="1369.0" y="2193.418221067581" />
+      <point x="-26.5" y="-5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.3" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3" relationship="MAVEN_DEPENDENCY">
+      <point x="113.0" y="5.25" />
+      <point x="1317.0" y="557.08125" />
+      <point x="1317.0" y="746.04910847787" />
+      <point x="62.5" y="-8.399999999999977" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.mockito:mockito-junit-jupiter:jar:3.3.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.mockito:mockito-core:jar:3.3.3" relationship="MAVEN_DEPENDENCY">
+      <point x="-71.0" y="5.25" />
+      <point x="574.0" y="2167.3878625897105" />
+      <point x="574.0" y="2349.968221067581" />
+      <point x="-51.0" y="-5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework:spring-webmvc:jar:5.2.12.RELEASE" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE/org.springframework:spring-beans:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="56.5" y="7.0" />
+      <point x="889.0" y="121.92499999999995" />
+      <point x="889.0" y="172.92499999999995" />
+      <point x="-50.5" y="-5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.mockito:mockito-junit-jupiter:jar:3.3.3" relationship="MAVEN_DEPENDENCY">
+      <point x="81.5" y="8.25" />
+      <point x="474.0" y="1349.4491084778701" />
+      <point x="474.0" y="2156.8878625897105" />
+      <point x="-71.0" y="-5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-engine:jar:5.6.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3" relationship="MAVEN_DEPENDENCY">
+      <point x="67.0" y="7.0" />
+      <point x="1317.0" y="1913.068221067581" />
+      <point x="1317.0" y="2059.94910847787" />
+      <point x="56.5" y="-7.875" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework:spring-web:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="83.0" y="-4.2000000000000455" />
+      <point x="384.0" y="608.87410847787" />
+      <point x="384.0" y="175.92499999999995" />
+      <point x="-45.0" y="-7.0" />
+    </edge>
+    <edge source="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3" target="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/jline:jline:jar:0.9.94" relationship="MAVEN_DEPENDENCY">
+      <point x="43.5" y="4.2000000000000455" />
+      <point x="919.0" y="2039.64375" />
+      <point x="919.0" y="2205.29910847787" />
+      <point x="-23.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-params:jar:5.6.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3" relationship="MAVEN_DEPENDENCY">
+      <point x="0.0" y="-10.5" />
+      <point x="0.0" y="10.5" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3/org.junit.platform:junit-platform-commons:jar:1.6.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3/org.apiguardian:apiguardian-api:jar:1.1.0" relationship="MAVEN_DEPENDENCY">
+      <point x="0.0" y="-10.5" />
+      <point x="0.0" y="10.5" />
+    </edge>
+    <edge source="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.7.RELEASE/com.zaxxer:HikariCP:jar:3.4.5" target="com.netflix.curator:curator-framework:jar:1.1.16/com.netflix.curator:curator-client:jar:1.1.16/org.slf4j:slf4j-api:jar:1.7.30" relationship="MAVEN_DEPENDENCY">
+      <point x="36.5" y="-0.0" />
+      <point x="1317.0" y="1397.943221067581" />
+      <point x="1317.0" y="1811.8241084778701" />
+      <point x="35.0" y="-5.25" />
+    </edge>
+    <edge source="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.7.RELEASE/org.springframework:spring-jdbc:jar:5.2.12.RELEASE/org.springframework:spring-tx:jar:5.2.12.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-core:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="-38.0" y="-0.0" />
+      <point x="1019.0" y="408.83124999999995" />
+      <point x="1019.0" y="733.130721067581" />
+      <point x="46.0" y="5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.7.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.41" relationship="MAVEN_DEPENDENCY">
+      <point x="91.0" y="2.625" />
+      <point x="999.0" y="870.887862589711" />
+      <point x="999.0" y="933.630721067581" />
+      <point x="-70.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="68.5" y="1.75" />
+      <point x="889.0" y="952.012862589711" />
+      <point x="889.0" y="1423.443221067581" />
+      <point x="969.0" y="1423.443221067581" />
+      <point x="969.0" y="1124.630721067581" />
+      <point x="-47.0" y="7.0" />
+    </edge>
+    <edge source="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/org.slf4j:slf4j-log4j12:jar:1.7.30" target="com.netflix.curator:curator-framework:jar:1.1.16/com.netflix.curator:curator-client:jar:1.1.16/org.slf4j:slf4j-api:jar:1.7.30" relationship="MAVEN_DEPENDENCY">
+      <point x="-47.5" y="-5.25" />
+      <point x="1061.0" y="1980.5741084778701" />
+      <point x="1061.0" y="1822.3241084778701" />
+      <point x="-35.0" y="5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/jakarta.annotation:jakarta.annotation-api:jar:1.3.5" relationship="MAVEN_DEPENDENCY">
+      <point x="68.5" y="-8.75" />
+      <point x="969.0" y="941.512862589711" />
+      <point x="969.0" y="828.380721067581" />
+      <point x="1049.0" y="828.380721067581" />
+      <point x="1049.0" y="795.44910847787" />
+      <point x="-76.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="95.0" y="7.0" />
+      <point x="434.0" y="983.57410847787" />
+      <point x="434.0" y="1281.943221067581" />
+      <point x="-116.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" relationship="MAVEN_DEPENDENCY">
+      <point x="81.5" y="3.75" />
+      <point x="504.0" y="1344.9491084778701" />
+      <point x="504.0" y="1739.56875" />
+      <point x="-39.5" y="-0.0" />
+    </edge>
+    <edge source="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/log4j:log4j:jar:1.2.15" target="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/log4j:log4j:jar:1.2.15/javax.mail:mail:jar:1.4" relationship="MAVEN_DEPENDENCY">
+      <point x="26.5" y="5.25" />
+      <point x="-24.0" y="-0.0" />
+    </edge>
+    <edge source="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE/org.springframework:spring-expression:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="54.0" y="-2.625" />
+      <point x="899.0" y="295.0741084778699" />
+      <point x="899.0" y="131.92499999999995" />
+      <point x="-64.5" y="-5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot:jar:2.3.7.RELEASE" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="-47.0" y="-7.0" />
+      <point x="1009.0" y="1110.630721067581" />
+      <point x="1009.0" y="305.5741084778699" />
+      <point x="54.0" y="7.875" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.3" relationship="MAVEN_DEPENDENCY">
+      <point x="83.0" y="-2.625" />
+      <point x="949.0" y="804.137862589711" />
+      <point x="949.0" y="551.83125" />
+      <point x="-113.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.7.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.41" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.7.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.41" relationship="MAVEN_DEPENDENCY">
+      <point x="0.0" y="-10.5" />
+      <point x="0.0" y="10.5" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2" relationship="MAVEN_DEPENDENCY">
+      <point x="43.0" y="-0.0" />
+      <point x="1349.0" y="1665.6991084778701" />
+      <point x="1349.0" y="1736.693221067581" />
+      <point x="-59.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-engine:jar:5.6.3/org.junit.platform:junit-platform-engine:jar:1.6.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3/org.opentest4j:opentest4j:jar:1.2.0" relationship="MAVEN_DEPENDENCY">
+      <point x="0.0" y="-10.5" />
+      <point x="0.0" y="10.5" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.3" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3/com.fasterxml.jackson.core:jackson-core:jar:2.11.3" relationship="MAVEN_DEPENDENCY">
+      <point x="113.0" y="-5.25" />
+      <point x="1349.0" y="546.58125" />
+      <point x="1349.0" y="582.512862589711" />
+      <point x="-49.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.30" target="com.netflix.curator:curator-framework:jar:1.1.16/com.netflix.curator:curator-client:jar:1.1.16/org.slf4j:slf4j-api:jar:1.7.30" relationship="MAVEN_DEPENDENCY">
+      <point x="-41.0" y="5.25" />
+      <point x="1339.0" y="1803.443221067581" />
+      <point x="1339.0" y="1822.3241084778701" />
+      <point x="35.0" y="5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3" relationship="MAVEN_DEPENDENCY">
+      <point x="81.5" y="-3.75" />
+      <point x="554.0" y="1337.4491084778701" />
+      <point x="554.0" y="1363.943221067581" />
+      <point x="-69.5" y="-0.0" />
+    </edge>
+    <edge source="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE/org.springframework:spring-beans:jar:5.2.12.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-core:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="-50.5" y="5.25" />
+      <point x="1019.0" y="183.42499999999995" />
+      <point x="1019.0" y="733.130721067581" />
+      <point x="46.0" y="5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.3" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3/com.fasterxml.jackson.core:jackson-core:jar:2.11.3" relationship="MAVEN_DEPENDENCY">
+      <point x="82.0" y="-0.0" />
+      <point x="1349.0" y="836.44910847787" />
+      <point x="1349.0" y="582.512862589711" />
+      <point x="-49.5" y="-0.0" />
+    </edge>
+    <edge source="org.apache.dubbo:dubbo:jar:3.0.2.1" target="org.apache.dubbo:dubbo:jar:3.0.2.1/com.alibaba.spring:spring-context-support:jar:1.0.8" relationship="MAVEN_DEPENDENCY">
+      <point x="31.5" y="6.5625" />
+      <point x="384.0" y="2530.3616084778696" />
+      <point x="384.0" y="2626.2991084778696" />
+      <point x="-79.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.3" relationship="MAVEN_DEPENDENCY">
+      <point x="83.0" y="-7.875" />
+      <point x="939.0" y="798.887862589711" />
+      <point x="939.0" y="510.83124999999995" />
+      <point x="-77.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE/io.micrometer:micrometer-core:jar:1.5.9" target="org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE/io.micrometer:micrometer-core:jar:1.5.9/org.hdrhistogram:HdrHistogram:jar:2.1.12" relationship="MAVEN_DEPENDENCY">
+      <point x="61.0" y="5.25" />
+      <point x="949.0" y="1201.512862589711" />
+      <point x="949.0" y="1076.630721067581" />
+      <point x="-53.5" y="-0.0" />
+    </edge>
+    <edge source="com.netflix.curator:curator-framework:jar:1.1.16" target="com.netflix.curator:curator-framework:jar:1.1.16/com.netflix.curator:curator-client:jar:1.1.16" relationship="MAVEN_DEPENDENCY">
+      <point x="67.0" y="-0.0" />
+      <point x="444.0" y="1705.79910847787" />
+      <point x="444.0" y="2203.1378625897105" />
+      <point x="-50.5" y="-0.0" />
+    </edge>
+    <edge source="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3" target="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/org.jboss.netty:netty:jar:3.2.2.Final" relationship="MAVEN_DEPENDENCY">
+      <point x="43.5" y="-0.0" />
+      <point x="919.0" y="2035.44375" />
+      <point x="919.0" y="2026.8241084778701" />
+      <point x="-26.0" y="-0.0" />
+    </edge>
+    <edge source="org.apache.dubbo:dubbo:jar:3.0.2.1" target="org.apache.dubbo:dubbo:jar:3.0.2.1/com.alibaba:fastjson:jar:1.2.70" relationship="MAVEN_DEPENDENCY">
+      <point x="31.5" y="1.3125" />
+      <point x="404.0" y="2525.1116084778696" />
+      <point x="404.0" y="2544.2991084778696" />
+      <point x="-34.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.mockito:mockito-core:jar:3.3.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.mockito:mockito-core:jar:3.3.3/net.bytebuddy:byte-buddy-agent:jar:1.10.18" relationship="MAVEN_DEPENDENCY">
+      <point x="51.0" y="7.0" />
+      <point x="889.0" y="2362.218221067581" />
+      <point x="889.0" y="2380.2991084778696" />
+      <point x="-64.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="68.5" y="-1.75" />
+      <point x="899.0" y="948.512862589711" />
+      <point x="899.0" y="1375.0432210675808" />
+      <point x="979.0" y="1375.0432210675808" />
+      <point x="979.0" y="1315.943221067581" />
+      <point x="-90.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework:spring-web:jar:5.2.12.RELEASE" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE/org.springframework:spring-beans:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="45.0" y="-0.0" />
+      <point x="889.0" y="182.92499999999995" />
+      <point x="889.0" y="172.92499999999995" />
+      <point x="-50.5" y="-5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-test:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="60.0" y="-5.25" />
+      <point x="889.0" y="1505.4833115281062" />
+      <point x="889.0" y="1423.443221067581" />
+      <point x="969.0" y="1423.443221067581" />
+      <point x="969.0" y="1124.630721067581" />
+      <point x="-47.0" y="7.0" />
+    </edge>
+    <edge source="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.7.RELEASE" target="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.7.RELEASE/org.springframework:spring-jdbc:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="83.5" y="-0.0" />
+      <point x="929.0" y="1114.262862589711" />
+      <point x="929.0" y="475.08124999999995" />
+      <point x="-45.5" y="5.25" />
+    </edge>
+    <edge source="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3" target="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/log4j:log4j:jar:1.2.15" relationship="MAVEN_DEPENDENCY">
+      <point x="43.5" y="8.400000000000091" />
+      <point x="909.0" y="2043.84375" />
+      <point x="909.0" y="2246.29910847787" />
+      <point x="-26.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="83.0" y="8.399999999999977" />
+      <point x="374.0" y="621.47410847787" />
+      <point x="374.0" y="706.7182210675811" />
+      <point x="524.0" y="706.7182210675811" />
+      <point x="524.0" y="957.262862589711" />
+      <point x="-68.5" y="7.0" />
+    </edge>
+    <edge source="org.springframework:spring-aspects:jar:5.2.12.RELEASE" target="org.springframework:spring-aspects:jar:5.2.12.RELEASE/org.aspectj:aspectjweaver:jar:1.9.6" relationship="MAVEN_DEPENDENCY">
+      <point x="55.0" y="-0.0" />
+      <point x="-53.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework:spring-web:jar:5.2.12.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-core:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="-45.0" y="7.0" />
+      <point x="604.0" y="189.92499999999995" />
+      <point x="604.0" y="722.630721067581" />
+      <point x="-46.0" y="-5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.7.RELEASE/org.glassfish:jakarta.el:jar:3.0.3" relationship="MAVEN_DEPENDENCY">
+      <point x="91.0" y="-7.875" />
+      <point x="959.0" y="860.387862589711" />
+      <point x="959.0" y="592.83125" />
+      <point x="-38.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3/org.junit.platform:junit-platform-commons:jar:1.6.3" relationship="MAVEN_DEPENDENCY">
+      <point x="56.5" y="7.875" />
+      <point x="1359.0" y="2075.69910847787" />
+      <point x="1359.0" y="2069.94910847787" />
+      <point x="-82.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="116.5" y="-0.0" />
+      <point x="899.0" y="1281.943221067581" />
+      <point x="899.0" y="1375.0432210675808" />
+      <point x="979.0" y="1375.0432210675808" />
+      <point x="979.0" y="1315.943221067581" />
+      <point x="-90.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-freemarker:jar:2.3.7.RELEASE/org.springframework:spring-context-support:jar:5.2.12.RELEASE" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="0.0" y="-10.5" />
+      <point x="0.0" y="10.5" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-engine:jar:5.6.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-engine:jar:5.6.3/org.junit.platform:junit-platform-engine:jar:1.6.3" relationship="MAVEN_DEPENDENCY">
+      <point x="67.0" y="-7.0" />
+      <point x="1359.0" y="1899.068221067581" />
+      <point x="1359.0" y="1947.9491084778701" />
+      <point x="-73.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-engine:jar:5.6.3/org.junit.platform:junit-platform-engine:jar:1.6.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3/org.apiguardian:apiguardian-api:jar:1.1.0" relationship="MAVEN_DEPENDENCY">
+      <point x="0.0" y="10.5" />
+      <point x="0.0" y="-10.5" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1" relationship="MAVEN_DEPENDENCY">
+      <point x="41.5" y="-0.0" />
+      <point x="909.0" y="1780.56875" />
+      <point x="909.0" y="1711.9491084778701" />
+      <point x="-49.5" y="-0.0" />
+    </edge>
+    <edge source="com.netflix.curator:curator-framework:jar:1.1.16" target="com.netflix.curator:curator-framework:jar:1.1.16/com.google.guava:guava:jar:11.0.1" relationship="MAVEN_DEPENDENCY">
+      <point x="67.0" y="7.0" />
+      <point x="434.0" y="1712.79910847787" />
+      <point x="434.0" y="2426.5491084778696" />
+      <point x="-29.5" y="5.25" />
+    </edge>
+    <edge source="org.apache.dubbo:dubbo:jar:3.0.2.1" target="org.apache.dubbo:dubbo:jar:3.0.2.1/io.netty:netty-all:jar:4.1.55.Final" relationship="MAVEN_DEPENDENCY">
+      <point x="31.5" y="-1.3125" />
+      <point x="444.0" y="2522.4866084778696" />
+      <point x="444.0" y="2503.2991084778696" />
+      <point x="-35.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework:spring-webmvc:jar:5.2.12.RELEASE" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="-56.5" y="7.0" />
+      <point x="614.0" y="121.92499999999995" />
+      <point x="614.0" y="290.6991084778699" />
+      <point x="-54.0" y="-7.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-freemarker:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-freemarker:jar:2.3.7.RELEASE/org.freemarker:freemarker:jar:2.3.30" relationship="MAVEN_DEPENDENCY">
+      <point x="103.5" y="-0.0" />
+      <point x="494.0" y="669.318221067581" />
+      <point x="494.0" y="909.262862589711" />
+      <point x="-44.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-actuator:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="0.0" y="-10.5" />
+      <point x="0.0" y="10.5" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-params:jar:5.6.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3/org.apiguardian:apiguardian-api:jar:1.1.0" relationship="MAVEN_DEPENDENCY">
+      <point x="69.5" y="-0.0" />
+      <point x="1339.0" y="2128.82410847787" />
+      <point x="1339.0" y="2008.9491084778701" />
+      <point x="-58.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-test:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="81.5" y="-2.25" />
+      <point x="544.0" y="1338.9491084778701" />
+      <point x="544.0" y="1510.7333115281062" />
+      <point x="-60.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-core:jar:5.2.12.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-core:jar:5.2.12.RELEASE/org.springframework:spring-jcl:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="46.0" y="-5.25" />
+      <point x="899.0" y="722.630721067581" />
+      <point x="899.0" y="367.83124999999995" />
+      <point x="-39.0" y="-0.0" />
+    </edge>
+    <edge source="org.apache.dubbo:dubbo:jar:3.0.2.1" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.javassist:javassist:jar:3.23.1-GA" relationship="MAVEN_DEPENDENCY">
+      <point x="31.5" y="-3.9375" />
+      <point x="434.0" y="2519.8616084778696" />
+      <point x="434.0" y="2462.2991084778696" />
+      <point x="-36.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.11.3" relationship="MAVEN_DEPENDENCY">
+      <point x="62.5" y="4.2000000000000455" />
+      <point x="1339.0" y="758.6491084778701" />
+      <point x="1339.0" y="835.755721067581" />
+      <point x="-70.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.7.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.41" relationship="MAVEN_DEPENDENCY">
+      <point x="91.0" y="7.875" />
+      <point x="989.0" y="876.137862589711" />
+      <point x="989.0" y="994.630721067581" />
+      <point x="-88.5" y="-0.0" />
+    </edge>
+    <edge source="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE/org.springframework:spring-aop:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="54.0" y="-7.875" />
+      <point x="909.0" y="289.8241084778699" />
+      <point x="909.0" y="90.92499999999995" />
+      <point x="-44.5" y="-5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3/org.opentest4j:opentest4j:jar:1.2.0" relationship="MAVEN_DEPENDENCY">
+      <point x="56.5" y="-2.625" />
+      <point x="1349.0" y="2065.19910847787" />
+      <point x="1349.0" y="1861.068221067581" />
+      <point x="-42.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-test:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="103.0" y="-7.0" />
+      <point x="867.0" y="1585.7333115281062" />
+      <point x="867.0" y="1515.9833115281062" />
+      <point x="60.0" y="5.25" />
+    </edge>
+    <edge source="org.apache.dubbo:dubbo:jar:3.0.2.1" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="31.5" y="-9.1875" />
+      <point x="394.0" y="2514.6116084778696" />
+      <point x="394.0" y="297.6991084778699" />
+      <point x="-54.0" y="-0.0" />
+    </edge>
+    <edge source="com.urs:devops:0.0.1-SNAPSHOT" target="mysql:mysql-connector-java:jar:8.0.22" relationship="MAVEN_DEPENDENCY">
+      <point x="33.5" y="-7.636363636363626" />
+      <point x="97.0" y="771.5627448415064" />
+      <point x="97.0" y="141.8241084778699" />
+      <point x="-74.5" y="-0.0" />
+    </edge>
+    <edge source="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="83.5" y="-7.0" />
+      <point x="867.0" y="1107.262862589711" />
+      <point x="867.0" y="959.012862589711" />
+      <point x="68.5" y="8.75" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.hamcrest:hamcrest:jar:2.2" relationship="MAVEN_DEPENDENCY">
+      <point x="81.5" y="-5.25" />
+      <point x="434.0" y="1335.9491084778701" />
+      <point x="434.0" y="1322.943221067581" />
+      <point x="-38.5" y="-0.0" />
+    </edge>
+    <edge source="com.alibaba:druid:jar:1.0.20" target="com.alibaba:druid:jar:1.0.20/com.alibaba:tools:jar:1.8.0" relationship="MAVEN_DEPENDENCY">
+      <point x="27.5" y="-5.25" />
+      <point x="-26.5" y="-0.0" />
+    </edge>
+    <edge source="com.urs:devops:0.0.1-SNAPSHOT" target="com.alibaba:druid:jar:1.0.20" relationship="MAVEN_DEPENDENCY">
+      <point x="33.5" y="-9.545454545454504" />
+      <point x="87.0" y="769.6536539324155" />
+      <point x="87.0" y="15.75" />
+      <point x="-27.5" y="-0.0" />
+    </edge>
+    <edge source="com.urs:devops:0.0.1-SNAPSHOT" target="org.springframework:spring-aspects:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="33.5" y="9.545454545454504" />
+      <point x="87.0" y="788.7445630233245" />
+      <point x="87.0" y="2708.2991084778696" />
+      <point x="-55.0" y="-0.0" />
+    </edge>
+    <edge source="org.apache.dubbo:dubbo:jar:3.0.2.1" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.roaringbitmap:RoaringBitmap:jar:0.9.0" relationship="MAVEN_DEPENDENCY">
+      <point x="31.5" y="9.1875" />
+      <point x="374.0" y="2532.9866084778696" />
+      <point x="374.0" y="2667.2991084778696" />
+      <point x="-55.5" y="-0.0" />
+    </edge>
+    <edge source="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.7.RELEASE/org.springframework:spring-jdbc:jar:5.2.12.RELEASE" target="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.7.RELEASE/org.springframework:spring-jdbc:jar:5.2.12.RELEASE/org.springframework:spring-tx:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="0.0" y="-10.5" />
+      <point x="0.0" y="10.5" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.mockito:mockito-core:jar:3.3.3" relationship="MAVEN_DEPENDENCY">
+      <point x="81.5" y="9.75" />
+      <point x="464.0" y="1350.9491084778701" />
+      <point x="464.0" y="2360.468221067581" />
+      <point x="-51.0" y="5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-freemarker:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="103.5" y="7.0" />
+      <point x="374.0" y="676.318221067581" />
+      <point x="374.0" y="706.7182210675811" />
+      <point x="524.0" y="706.7182210675811" />
+      <point x="524.0" y="957.262862589711" />
+      <point x="-68.5" y="7.0" />
+    </edge>
+    <edge source="com.urs:devops:0.0.1-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="33.5" y="3.81818181818187" />
+      <point x="117.0" y="783.0172902960519" />
+      <point x="117.0" y="1341.1991084778701" />
+      <point x="-81.5" y="-0.0" />
+    </edge>
+    <edge source="com.netflix.curator:curator-framework:jar:1.1.16" target="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3" relationship="MAVEN_DEPENDENCY">
+      <point x="67.0" y="-7.0" />
+      <point x="454.0" y="1698.79910847787" />
+      <point x="454.0" y="2030.19375" />
+      <point x="-43.5" y="-5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3" relationship="MAVEN_DEPENDENCY">
+      <point x="93.5" y="-0.0" />
+      <point x="1369.0" y="892.630721067581" />
+      <point x="1369.0" y="971.7503625897109" />
+      <point x="-56.5" y="-5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3" relationship="MAVEN_DEPENDENCY">
+      <point x="116.5" y="-8.400000000000091" />
+      <point x="919.0" y="1273.5432210675808" />
+      <point x="919.0" y="1018.88660847787" />
+      <point x="1039.0" y="1018.88660847787" />
+      <point x="1039.0" y="754.44910847787" />
+      <point x="-62.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework:spring-webmvc:jar:5.2.12.RELEASE" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE/org.springframework:spring-aop:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="56.5" y="-7.0" />
+      <point x="909.0" y="107.92499999999995" />
+      <point x="909.0" y="90.92499999999995" />
+      <point x="-44.5" y="-5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="103.0" y="7.0" />
+      <point x="889.0" y="1599.7333115281062" />
+      <point x="889.0" y="1423.443221067581" />
+      <point x="969.0" y="1423.443221067581" />
+      <point x="969.0" y="1124.630721067581" />
+      <point x="-47.0" y="7.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-core:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="-47.0" y="-0.0" />
+      <point x="1019.0" y="1117.630721067581" />
+      <point x="1019.0" y="733.130721067581" />
+      <point x="46.0" y="5.25" />
+    </edge>
+    <edge source="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/org.slf4j:slf4j-log4j12:jar:1.7.30/log4j:log4j:jar:1.2.17" target="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/log4j:log4j:jar:1.2.15" relationship="MAVEN_DEPENDENCY_EDGE">
+      <point x="-26.5" y="5.25" />
+      <point x="1339.0" y="2203.918221067581" />
+      <point x="1339.0" y="2241.04910847787" />
+      <point x="26.5" y="-5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.3" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3/com.fasterxml.jackson.core:jackson-core:jar:2.11.3" relationship="MAVEN_DEPENDENCY">
+      <point x="77.0" y="-5.25" />
+      <point x="1349.0" y="505.58124999999995" />
+      <point x="1349.0" y="582.512862589711" />
+      <point x="-49.5" y="-0.0" />
+    </edge>
+    <edge source="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3" target="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/org.slf4j:slf4j-log4j12:jar:1.7.30" relationship="MAVEN_DEPENDENCY">
+      <point x="43.5" y="-4.2000000000000455" />
+      <point x="909.0" y="2031.2437499999999" />
+      <point x="909.0" y="1991.0741084778701" />
+      <point x="-47.5" y="5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.3" relationship="MAVEN_DEPENDENCY">
+      <point x="83.0" y="7.875" />
+      <point x="909.0" y="814.637862589711" />
+      <point x="909.0" y="1064.8866084778701" />
+      <point x="1029.0" y="1064.8866084778701" />
+      <point x="1029.0" y="836.44910847787" />
+      <point x="-82.0" y="-0.0" />
+    </edge>
+    <edge source="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE/org.springframework:spring-aop:jar:5.2.12.RELEASE" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE/org.springframework:spring-beans:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="44.5" y="-0.0" />
+      <point x="1317.0" y="96.17499999999995" />
+      <point x="1317.0" y="171.17499999999995" />
+      <point x="50.5" y="-7.0" />
+    </edge>
+    <edge source="com.urs:devops:0.0.1-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.18" relationship="MAVEN_DEPENDENCY">
+      <point x="33.5" y="-5.727272727272748" />
+      <point x="107.0" y="773.4718357505973" />
+      <point x="107.0" y="182.8241084778699" />
+      <point x="-34.5" y="-0.0" />
+    </edge>
+    <edge source="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.7.RELEASE/org.springframework:spring-jdbc:jar:5.2.12.RELEASE" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE/org.springframework:spring-beans:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="45.5" y="-0.0" />
+      <point x="1327.0" y="469.83124999999995" />
+      <point x="1327.0" y="178.17499999999995" />
+      <point x="50.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0" relationship="MAVEN_DEPENDENCY">
+      <point x="81.5" y="5.25" />
+      <point x="494.0" y="1346.4491084778701" />
+      <point x="494.0" y="1780.56875" />
+      <point x="-41.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-freemarker:jar:2.3.7.RELEASE/org.springframework:spring-context-support:jar:5.2.12.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-core:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="0.0" y="10.5" />
+      <point x="0.0" y="-10.5" />
+    </edge>
+    <edge source="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE/org.springframework:spring-expression:jar:5.2.12.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-core:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="-64.5" y="5.25" />
+      <point x="1019.0" y="142.42499999999995" />
+      <point x="1019.0" y="733.130721067581" />
+      <point x="46.0" y="5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework:spring-webmvc:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="83.0" y="-8.399999999999977" />
+      <point x="374.0" y="604.67410847787" />
+      <point x="374.0" y="107.92499999999995" />
+      <point x="-56.5" y="-7.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.mockito:mockito-junit-jupiter:jar:3.3.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3" relationship="MAVEN_DEPENDENCY">
+      <point x="71.0" y="-0.0" />
+      <point x="889.0" y="2162.1378625897105" />
+      <point x="889.0" y="2117.737862589711" />
+      <point x="939.0" y="2117.737862589711" />
+      <point x="939.0" y="2067.82410847787" />
+      <point x="-56.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework:spring-web:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="-83.0" y="-7.0" />
+      <point x="584.0" y="799.762862589711" />
+      <point x="584.0" y="182.92499999999995" />
+      <point x="-45.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3" relationship="MAVEN_DEPENDENCY">
+      <point x="83.0" y="2.625" />
+      <point x="919.0" y="809.387862589711" />
+      <point x="919.0" y="1018.88660847787" />
+      <point x="1039.0" y="1018.88660847787" />
+      <point x="1039.0" y="754.44910847787" />
+      <point x="-62.5" y="-0.0" />
+    </edge>
+    <edge source="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE/org.springframework:spring-aop:jar:5.2.12.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-core:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="-44.5" y="5.25" />
+      <point x="1019.0" y="101.42499999999995" />
+      <point x="1019.0" y="733.130721067581" />
+      <point x="46.0" y="5.25" />
+    </edge>
+    <edge source="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.7.RELEASE" target="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.7.RELEASE/com.zaxxer:HikariCP:jar:3.4.5" relationship="MAVEN_DEPENDENCY">
+      <point x="83.5" y="7.0" />
+      <point x="959.0" y="1121.262862589711" />
+      <point x="959.0" y="1397.943221067581" />
+      <point x="-36.5" y="-0.0" />
+    </edge>
+    <edge source="org.apache.dubbo:dubbo:jar:3.0.2.1" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.yaml:snakeyaml:jar:1.26" relationship="MAVEN_DEPENDENCY">
+      <point x="31.5" y="-6.5625" />
+      <point x="424.0" y="2517.2366084778696" />
+      <point x="424.0" y="1240.943221067581" />
+      <point x="-42.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="83.0" y="4.2000000000000455" />
+      <point x="504.0" y="617.2741084778701" />
+      <point x="504.0" y="868.262862589711" />
+      <point x="-91.0" y="-0.0" />
+    </edge>
+    <edge source="com.netflix.curator:curator-framework:jar:1.1.16/com.google.guava:guava:jar:11.0.1" target="com.netflix.curator:curator-framework:jar:1.1.16/com.google.guava:guava:jar:11.0.1/com.google.code.findbugs:jsr305:jar:1.3.9" relationship="MAVEN_DEPENDENCY">
+      <point x="29.5" y="-0.0" />
+      <point x="-29.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/jakarta.annotation:jakarta.annotation-api:jar:1.3.5" relationship="MAVEN_DEPENDENCY">
+      <point x="91.0" y="-2.625" />
+      <point x="969.0" y="865.637862589711" />
+      <point x="969.0" y="828.380721067581" />
+      <point x="1049.0" y="828.380721067581" />
+      <point x="1049.0" y="795.44910847787" />
+      <point x="-76.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.mockito:mockito-core:jar:3.3.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.mockito:mockito-core:jar:3.3.3/org.objenesis:objenesis:jar:2.6" relationship="MAVEN_DEPENDENCY">
+      <point x="51.0" y="-0.0" />
+      <point x="899.0" y="2355.218221067581" />
+      <point x="899.0" y="2339.29910847787" />
+      <point x="-39.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3" target="com.netflix.curator:curator-framework:jar:1.1.16/com.netflix.curator:curator-client:jar:1.1.16/org.slf4j:slf4j-api:jar:1.7.30" relationship="MAVEN_DEPENDENCY">
+      <point x="-56.5" y="5.25" />
+      <point x="1339.0" y="982.2503625897109" />
+      <point x="1339.0" y="1822.3241084778701" />
+      <point x="35.0" y="5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-freemarker:jar:2.3.7.RELEASE/org.springframework:spring-context-support:jar:5.2.12.RELEASE" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE/org.springframework:spring-beans:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="79.5" y="-0.0" />
+      <point x="889.0" y="468.4161595394746" />
+      <point x="889.0" y="172.92499999999995" />
+      <point x="-50.5" y="-5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-freemarker:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-freemarker:jar:2.3.7.RELEASE/org.springframework:spring-context-support:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="103.5" y="-7.0" />
+      <point x="404.0" y="662.318221067581" />
+      <point x="404.0" y="468.4161595394746" />
+      <point x="-79.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.yaml:snakeyaml:jar:1.26" relationship="MAVEN_DEPENDENCY">
+      <point x="68.5" y="5.25" />
+      <point x="877.0" y="955.512862589711" />
+      <point x="877.0" y="1240.943221067581" />
+      <point x="42.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3" relationship="MAVEN_DEPENDENCY">
+      <point x="81.5" y="6.75" />
+      <point x="484.0" y="1347.9491084778701" />
+      <point x="484.0" y="1988.94375" />
+      <point x="-45.0" y="-0.0" />
+    </edge>
+    <edge source="org.apache.dubbo:dubbo:jar:3.0.2.1" target="org.apache.dubbo:dubbo:jar:3.0.2.1/com.google.code.gson:gson:jar:2.8.6" relationship="MAVEN_DEPENDENCY">
+      <point x="31.5" y="3.9375" />
+      <point x="394.0" y="2527.7366084778696" />
+      <point x="394.0" y="2585.2991084778696" />
+      <point x="-26.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="-83.0" y="7.0" />
+      <point x="584.0" y="813.762862589711" />
+      <point x="584.0" y="943.262862589711" />
+      <point x="-68.5" y="-7.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-core:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="81.5" y="-8.25" />
+      <point x="404.0" y="1332.9491084778701" />
+      <point x="404.0" y="729.630721067581" />
+      <point x="-46.0" y="1.75" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="103.0" y="-0.0" />
+      <point x="899.0" y="1592.7333115281062" />
+      <point x="899.0" y="1375.0432210675808" />
+      <point x="979.0" y="1375.0432210675808" />
+      <point x="979.0" y="1315.943221067581" />
+      <point x="-90.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="68.5" y="-5.25" />
+      <point x="979.0" y="945.012862589711" />
+      <point x="979.0" y="892.630721067581" />
+      <point x="-93.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="com.netflix.curator:curator-framework:jar:1.1.16/com.netflix.curator:curator-client:jar:1.1.16/org.slf4j:slf4j-api:jar:1.7.30" relationship="MAVEN_DEPENDENCY">
+      <point x="39.5" y="5.25" />
+      <point x="899.0" y="1744.81875" />
+      <point x="899.0" y="1998.8628625897109" />
+      <point x="939.0" y="1998.8628625897109" />
+      <point x="939.0" y="1811.8241084778701" />
+      <point x="-35.0" y="-5.25" />
+    </edge>
+    <edge source="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="93.5" y="-8.399999999999977" />
+      <point x="374.0" y="770.79910847787" />
+      <point x="374.0" y="706.7182210675811" />
+      <point x="524.0" y="706.7182210675811" />
+      <point x="524.0" y="957.262862589711" />
+      <point x="-68.5" y="7.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="95.0" y="-7.0" />
+      <point x="374.0" y="969.57410847787" />
+      <point x="374.0" y="706.7182210675811" />
+      <point x="524.0" y="706.7182210675811" />
+      <point x="524.0" y="957.262862589711" />
+      <point x="-68.5" y="7.0" />
+    </edge>
+    <edge source="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:2.2.1" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="115.0" y="-0.0" />
+      <point x="899.0" y="1155.262862589711" />
+      <point x="899.0" y="1375.0432210675808" />
+      <point x="979.0" y="1375.0432210675808" />
+      <point x="979.0" y="1315.943221067581" />
+      <point x="-90.0" y="-0.0" />
+    </edge>
+    <edge source="com.alibaba:druid:jar:1.0.20" target="com.alibaba:druid:jar:1.0.20/com.alibaba:jconsole:jar:1.8.0" relationship="MAVEN_DEPENDENCY">
+      <point x="27.5" y="5.25" />
+      <point x="374.0" y="21.0" />
+      <point x="374.0" y="51.5" />
+      <point x="-36.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3/jakarta.activation:jakarta.activation-api:jar:1.2.2" relationship="MAVEN_DEPENDENCY">
+      <point x="69.5" y="-0.0" />
+      <point x="909.0" y="1363.943221067581" />
+      <point x="909.0" y="1356.943221067581" />
+      <point x="-72.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework:spring-webmvc:jar:5.2.12.RELEASE" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE/org.springframework:spring-expression:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="56.5" y="-0.0" />
+      <point x="899.0" y="114.92499999999995" />
+      <point x="899.0" y="131.92499999999995" />
+      <point x="-64.5" y="-5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-engine:jar:5.6.3" relationship="MAVEN_DEPENDENCY">
+      <point x="45.0" y="-7.0" />
+      <point x="909.0" y="1981.94375" />
+      <point x="909.0" y="1906.068221067581" />
+      <point x="-67.0" y="-0.0" />
+    </edge>
+    <edge source="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1" target="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.mybatis:mybatis-spring:jar:2.0.6" relationship="MAVEN_DEPENDENCY">
+      <point x="93.5" y="-4.2000000000000455" />
+      <point x="484.0" y="774.99910847787" />
+      <point x="484.0" y="991.262862589711" />
+      <point x="-55.5" y="-0.0" />
+    </edge>
+    <edge source="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3" target="com.netflix.curator:curator-framework:jar:1.1.16/com.netflix.curator:curator-client:jar:1.1.16/org.slf4j:slf4j-api:jar:1.7.30" relationship="MAVEN_DEPENDENCY">
+      <point x="43.5" y="-8.400000000000091" />
+      <point x="899.0" y="2027.0437499999998" />
+      <point x="899.0" y="1998.8628625897109" />
+      <point x="939.0" y="1998.8628625897109" />
+      <point x="939.0" y="1811.8241084778701" />
+      <point x="-35.0" y="-5.25" />
+    </edge>
+    <edge source="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-core:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="-54.0" y="7.0" />
+      <point x="614.0" y="304.6991084778699" />
+      <point x="614.0" y="719.130721067581" />
+      <point x="-46.0" y="-8.75" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3" relationship="MAVEN_DEPENDENCY">
+      <point x="45.0" y="7.0" />
+      <point x="889.0" y="1995.94375" />
+      <point x="889.0" y="2117.737862589711" />
+      <point x="939.0" y="2117.737862589711" />
+      <point x="939.0" y="2067.82410847787" />
+      <point x="-56.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="81.5" y="0.75" />
+      <point x="524.0" y="1341.9491084778701" />
+      <point x="524.0" y="1592.7333115281062" />
+      <point x="-103.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-core:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="-68.5" y="-0.0" />
+      <point x="574.0" y="950.262862589711" />
+      <point x="574.0" y="736.630721067581" />
+      <point x="-46.0" y="8.75" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3/org.apache.logging.log4j:log4j-api:jar:2.13.3" relationship="MAVEN_DEPENDENCY">
+      <point x="49.0" y="-0.0" />
+      <point x="-38.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3" relationship="MAVEN_DEPENDENCY">
+      <point x="56.5" y="-0.0" />
+      <point x="-51.0" y="-0.0" />
+    </edge>
+    <edge source="com.netflix.curator:curator-framework:jar:1.1.16/com.netflix.curator:curator-client:jar:1.1.16" target="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3" relationship="MAVEN_DEPENDENCY">
+      <point x="-50.5" y="-7.0" />
+      <point x="584.0" y="2196.1378625897105" />
+      <point x="584.0" y="2040.69375" />
+      <point x="-43.5" y="5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="116.5" y="8.400000000000091" />
+      <point x="889.0" y="1290.343221067581" />
+      <point x="889.0" y="1423.443221067581" />
+      <point x="969.0" y="1423.443221067581" />
+      <point x="969.0" y="1124.630721067581" />
+      <point x="-47.0" y="7.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.mockito:mockito-core:jar:3.3.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.mockito:mockito-core:jar:3.3.3/net.bytebuddy:byte-buddy:jar:1.10.18" relationship="MAVEN_DEPENDENCY">
+      <point x="51.0" y="-7.0" />
+      <point x="889.0" y="2348.218221067581" />
+      <point x="889.0" y="2298.29910847787" />
+      <point x="-45.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.3" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3" relationship="MAVEN_DEPENDENCY">
+      <point x="82.0" y="-7.0" />
+      <point x="1317.0" y="829.44910847787" />
+      <point x="1317.0" y="762.84910847787" />
+      <point x="62.5" y="8.399999999999977" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3/com.fasterxml.jackson.core:jackson-core:jar:2.11.3" relationship="MAVEN_DEPENDENCY">
+      <point x="62.5" y="-0.0" />
+      <point x="1349.0" y="754.44910847787" />
+      <point x="1349.0" y="582.512862589711" />
+      <point x="-49.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-test:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="81.5" y="-6.75" />
+      <point x="414.0" y="1334.4491084778701" />
+      <point x="414.0" y="1078.512862589711" />
+      <point x="-43.5" y="5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE/io.micrometer:micrometer-core:jar:1.5.9" relationship="MAVEN_DEPENDENCY">
+      <point x="95.0" y="-0.0" />
+      <point x="444.0" y="976.57410847787" />
+      <point x="444.0" y="1196.262862589711" />
+      <point x="-61.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-params:jar:5.6.3" relationship="MAVEN_DEPENDENCY">
+      <point x="45.0" y="-0.0" />
+      <point x="929.0" y="1988.94375" />
+      <point x="929.0" y="2128.82410847787" />
+      <point x="-69.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.3" relationship="MAVEN_DEPENDENCY">
+      <point x="116.5" y="-4.2000000000000455" />
+      <point x="909.0" y="1277.7432210675809" />
+      <point x="909.0" y="1064.8866084778701" />
+      <point x="1029.0" y="1064.8866084778701" />
+      <point x="1029.0" y="836.44910847787" />
+      <point x="-82.0" y="-0.0" />
+    </edge>
+    <edge source="com.urs:devops:0.0.1-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-freemarker:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="33.5" y="-1.909090909090878" />
+      <point x="127.0" y="777.2900175687791" />
+      <point x="127.0" y="669.318221067581" />
+      <point x="-103.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-engine:jar:5.6.3/org.junit.platform:junit-platform-engine:jar:1.6.3" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.3/org.junit.jupiter:junit-jupiter-api:jar:5.6.3/org.junit.platform:junit-platform-commons:jar:1.6.3" relationship="MAVEN_DEPENDENCY">
+      <point x="73.5" y="-0.0" />
+      <point x="1586.0" y="1947.9491084778701" />
+      <point x="1586.0" y="2069.94910847787" />
+      <point x="82.5" y="-0.0" />
+    </edge>
+    <edge source="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/log4j:log4j:jar:1.2.15/javax.mail:mail:jar:1.4" target="com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/log4j:log4j:jar:1.2.15/javax.mail:mail:jar:1.4/javax.activation:activation:jar:1.1" relationship="MAVEN_DEPENDENCY">
+      <point x="24.0" y="-0.0" />
+      <point x="-39.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.3" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.3" relationship="MAVEN_DEPENDENCY">
+      <point x="77.0" y="5.25" />
+      <point x="1327.0" y="516.08125" />
+      <point x="1327.0" y="750.24910847787" />
+      <point x="62.5" y="-4.2000000000000455" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4" relationship="MAVEN_DEPENDENCY">
+      <point x="59.5" y="-0.0" />
+      <point x="-24.0" y="-0.0" />
+    </edge>
+    <edge source="org.apache.dubbo:dubbo:jar:3.0.2.1/org.roaringbitmap:RoaringBitmap:jar:0.9.0" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.roaringbitmap:RoaringBitmap:jar:0.9.0/org.roaringbitmap:shims:jar:0.9.0" relationship="MAVEN_DEPENDENCY">
+      <point x="55.5" y="-0.0" />
+      <point x="-28.5" y="-0.0" />
+    </edge>
+    <edge source="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1" target="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="93.5" y="4.2000000000000455" />
+      <point x="464.0" y="783.3991084778701" />
+      <point x="464.0" y="1114.262862589711" />
+      <point x="-83.5" y="-0.0" />
+    </edge>
+    <edge source="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.7.RELEASE/org.springframework:spring-jdbc:jar:5.2.12.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.springframework:spring-core:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="-45.5" y="-5.25" />
+      <point x="1019.0" y="464.58124999999995" />
+      <point x="1019.0" y="733.130721067581" />
+      <point x="46.0" y="5.25" />
+    </edge>
+    <edge source="com.urs:devops:0.0.1-SNAPSHOT" target="org.apache.dubbo:dubbo:jar:3.0.2.1" relationship="MAVEN_DEPENDENCY">
+      <point x="33.5" y="7.636363636363626" />
+      <point x="97.0" y="786.8354721142337" />
+      <point x="97.0" y="2523.7991084778696" />
+      <point x="-31.5" y="-0.0" />
+    </edge>
+    <edge source="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE" target="org.apache.dubbo:dubbo:jar:3.0.2.1/org.springframework:spring-context:jar:5.2.12.RELEASE/org.springframework:spring-beans:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="54.0" y="2.625" />
+      <point x="889.0" y="300.3241084778699" />
+      <point x="889.0" y="172.92499999999995" />
+      <point x="-50.5" y="-5.25" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-actuator:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-actuator:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="116.5" y="4.2000000000000455" />
+      <point x="929.0" y="1286.143221067581" />
+      <point x="929.0" y="1274.943221067581" />
+      <point x="-73.5" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.xmlunit:xmlunit-core:jar:2.7.0" relationship="MAVEN_DEPENDENCY">
+      <point x="81.5" y="2.25" />
+      <point x="514.0" y="1343.4491084778701" />
+      <point x="514.0" y="1698.56875" />
+      <point x="-48.0" y="-0.0" />
+    </edge>
+    <edge source="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1" target="org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.2.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:2.2.1" relationship="MAVEN_DEPENDENCY">
+      <point x="93.5" y="8.399999999999977" />
+      <point x="454.0" y="787.59910847787" />
+      <point x="454.0" y="1155.262862589711" />
+      <point x="-115.0" y="-0.0" />
+    </edge>
+    <edge source="com.urs:devops:0.0.1-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="33.5" y="-3.81818181818187" />
+      <point x="117.0" y="775.3809266596882" />
+      <point x="117.0" y="613.07410847787" />
+      <point x="-83.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework:spring-webmvc:jar:5.2.12.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework:spring-web:jar:5.2.12.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="0.0" y="10.5" />
+      <point x="0.0" y="-10.5" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.7.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.30" relationship="MAVEN_DEPENDENCY">
+      <point x="93.5" y="7.0" />
+      <point x="1359.0" y="899.630721067581" />
+      <point x="1359.0" y="1792.943221067581" />
+      <point x="-41.0" y="-5.25" />
+    </edge>
+    <edge source="com.netflix.curator:curator-framework:jar:1.1.16/com.netflix.curator:curator-client:jar:1.1.16" target="com.netflix.curator:curator-framework:jar:1.1.16/com.google.guava:guava:jar:11.0.1" relationship="MAVEN_DEPENDENCY">
+      <point x="-50.5" y="7.0" />
+      <point x="564.0" y="2210.1378625897105" />
+      <point x="564.0" y="2416.0491084778696" />
+      <point x="-29.5" y="-5.25" />
+    </edge>
+    <edge source="com.urs:devops:0.0.1-SNAPSHOT" target="com.netflix.curator:curator-framework:jar:1.1.16" relationship="MAVEN_DEPENDENCY">
+      <point x="33.5" y="5.727272727272748" />
+      <point x="107.0" y="784.9263812051428" />
+      <point x="107.0" y="1705.79910847787" />
+      <point x="-67.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="90.0" y="-0.0" />
+      <point x="1317.0" y="1315.943221067581" />
+      <point x="1317.0" y="1117.630721067581" />
+      <point x="47.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3" relationship="MAVEN_DEPENDENCY">
+      <point x="39.5" y="-5.25" />
+      <point x="889.0" y="1734.31875" />
+      <point x="889.0" y="1665.6991084778701" />
+      <point x="-43.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:2.3.7.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.7.RELEASE" relationship="MAVEN_DEPENDENCY">
+      <point x="83.0" y="-0.0" />
+      <point x="514.0" y="613.07410847787" />
+      <point x="514.0" y="806.762862589711" />
+      <point x="-83.0" y="-0.0" />
+    </edge>
+    <edge source="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:2.3.7.RELEASE/org.assertj:assertj-core:jar:3.16.1" relationship="MAVEN_DEPENDENCY">
+      <point x="81.5" y="-0.75" />
+      <point x="534.0" y="1340.4491084778701" />
+      <point x="534.0" y="1551.7333115281062" />
+      <point x="-46.5" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Custom" zoom="1.034657320872274" showDependencies="false" x="982.1987203613098" y="2057.592021076402" />
+  <SelectedNodes>
+    <node>com.netflix.curator:curator-framework:jar:1.1.16/org.apache.zookeeper:zookeeper:jar:3.4.3/org.slf4j:slf4j-log4j12:jar:1.7.30/log4j:log4j:jar:1.2.17</node>
+  </SelectedNodes>
+  <Categories />
+  <VISIBILITY>All</VISIBILITY>
+</Diagram>
+
