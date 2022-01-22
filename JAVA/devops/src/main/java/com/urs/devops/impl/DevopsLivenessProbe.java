@@ -6,6 +6,6 @@ import org.apache.dubbo.qos.probe.LivenessProbe;
 public class DevopsLivenessProbe implements LivenessProbe {
     @Override
     public boolean check() {
-        return !DubboBootstrap.getInstance().isShutdown() && DubboBootstrap.getInstance().isStartup();
+        return true;
     }
 }
