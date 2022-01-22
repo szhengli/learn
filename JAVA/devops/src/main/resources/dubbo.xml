@@ -7,7 +7,13 @@
             http://www.springframework.org/schema/beans/spring-beans.xsd
             http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd
             ">
-    <dubbo:application name="devops-app"/>
+    <dubbo:application name="devops">
+
+        <dubbo:parameter key="qos.enable" value="false"/>
+        <dubbo:parameter key="register-mode" value="instance"/>
+        <dubbo:parameter key="qos.accept.foreign.ip" value="true"/>
+
+    </dubbo:application>
     <dubbo:registry address="zookeeper://10.1.163.142:2181" client="curator"  timeout="100000"/>
 
     <bean id="studentServiceImpl" class="com.urs.devops.impl.StudentServiceImpl" />
