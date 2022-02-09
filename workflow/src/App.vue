@@ -54,14 +54,13 @@ export default {
         it.jenkinsData = res.data
         it.showSpinning = true
 
-
        content.scrollTop=content.scrollHeight
         //content.scrollIntoView()
         if (res.headers["x-more-data"] == "true") {
           let start = res.headers["x-text-size"]
            setTimeout(x=>{
              it.runJob(url, start, it)
-           }, 500)
+           }, 200)
         } else {
           it.showSpinning = false
         }

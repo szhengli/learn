@@ -18,7 +18,16 @@ public class JenkinsController {
     @RequestMapping("/build")
     @ResponseBody
     public int build(){
-        return  jenkins.build();
+        return  jenkins.build("prev5-zl-omsv5");
     }
+
+
+
+    @RequestMapping("/job")
+    @ResponseBody
+    public String job(){
+        return  jenkins.job("prev5-zl-omsv5", "20240122");
+    }
+
 
 }

@@ -2,6 +2,8 @@ package com.urs.devops.controllers;
 
 import com.urs.devops.dao.StudentMapper;
 import com.urs.devops.dao.StudentMapper2;
+import com.urs.devops.interfaces.StudentService;
+import org.apache.dubbo.rpc.service.EchoService;
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -29,6 +31,9 @@ public class DemoController {
     @Autowired
     private  StudentMapper2 studentMapper2;
 
+    @Autowired
+    private StudentService studentService;
+
     @Value("${james.city}")
     private String city;
 
@@ -40,11 +45,15 @@ public class DemoController {
     }
 
 
-    @PostMapping("/hello3")
+    @GetMapping("/hello3")
     @CrossOrigin( origins = "http://127.0.0.1:8010")
     @ResponseBody
     public String hello3(){
-        return  "hello 2 world" ;
+        EchoService echoService = (EchoService)studentService;
+
+        String status = (String) echoService.$echo("ok");
+
+        return  "student ：" + status ;
     }
 
 
