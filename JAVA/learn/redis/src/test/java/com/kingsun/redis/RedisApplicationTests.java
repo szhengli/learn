@@ -23,13 +23,9 @@ class RedisApplicationTests {
 
     @Test
     void contextLoads() {
+        Object name = "james";
 
-        People james = new People();
-        james.setFirstName("sunny");
-        james.setLastName("zheng");
-
-        release.writeHash("s001".getBytes(StandardCharsets.UTF_8), james);
-
+        System.out.println((String) name);
 
 
 

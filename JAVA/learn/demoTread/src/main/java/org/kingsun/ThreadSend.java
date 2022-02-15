@@ -11,6 +11,7 @@ public class ThreadSend extends Thread{
 
     public void run(){
         System.out.println("beginning " + Thread.currentThread().getName()+ "!!!!!!!!!!!!");
+        System.out.println("******************************* " +  Thread.currentThread().getThreadGroup().getName());
         synchronized (sender){
             System.out.println(Thread.currentThread().getName()+" get the lock#######");
             sender.send(msg);

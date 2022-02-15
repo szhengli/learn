@@ -4,47 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6473c2d3-c1c0-466d-a35f-275fffe49e1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../devops/Demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../devops/src/main/java/com/urs/devops/test/DemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demoTread/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demoTread/src/main/java/org/kingsun/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demoTread/src/main/java/org/kingsun/Sender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demoTread/src/main/java/org/kingsun/ThreadSend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/org/kingsun/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/org/kingsun/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/org/kingsun/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/kingsun/redis/RedisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/kingsun/redis/config/RedisZl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/kingsun/redis/domain/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/kingsun/redis/service/Release.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/test/java/com/kingsun/redis/RedisApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhonglun/dubboProvider/dubboProvider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zhonglun/urs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../devops/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../devops/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../devops/src/main/java/com/urs/devops/controllers/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../devops/src/main/java/com/urs/devops/controllers/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../devops/src/main/java/com/urs/devops/controllers/JenkinsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../devops/src/main/java/com/urs/devops/controllers/JenkinsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../devops/src/main/java/com/urs/devops/service/Jenkins.java" beforeDir="false" afterPath="$PROJECT_DIR$/../devops/src/main/java/com/urs/devops/service/Jenkins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workflow/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../workflow/src/App.vue" afterDir="false" />
+    <list default="true" id="6473c2d3-c1c0-466d-a35f-275fffe49e1b" name="Default Changelist" comment="mutilThreading">
+      <change afterPath="$PROJECT_DIR$/demoThreadGroup/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoThreadGroup/src/main/java/org/kingsun/NewThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoThreadGroup/src/main/java/org/kingsun/ThreadGroupDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoThreadPool/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoThreadPool/src/main/java/org/kingsun/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoThreadPool/src/main/java/org/kingsun/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/factory/src/main/java/org/kingsun/MyT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/kingsun/redis/ControllerRelease.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoTread/src/main/java/org/kingsun/ThreadSend.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoTread/src/main/java/org/kingsun/ThreadSend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory/src/main/java/org/kingsun/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/factory/src/main/java/org/kingsun/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/kingsun/redis/service/Release.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/kingsun/redis/service/Release.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/test/java/com/kingsun/redis/RedisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/test/java/com/kingsun/redis/RedisApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../inputUI/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../inputUI/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../inputUI/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../inputUI/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +64,7 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Factory">
+  <component name="RunManager" selected="Spring Boot.RedisApplication">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.kingsun.Driver" />
       <module name="demoTread" />
@@ -99,9 +78,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.kingsun.Factory" />
-      <module name="factory" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.kingsun.Test" />
+      <module name="demoThreadPool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.kingsun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadGroupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.kingsun.ThreadGroupDemo" />
+      <module name="demoThreadGroup" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.kingsun.*" />
@@ -165,10 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Factory" />
-        <item itemvalue="Application.Driver" />
-        <item itemvalue="JUnit.RedisApplicationTests" />
         <item itemvalue="JUnit.RedisApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.RedisApplicationTests" />
+        <item itemvalue="Application.ThreadGroupDemo" />
+        <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -182,8 +175,16 @@
       <updated>1643359788607</updated>
       <workItem from="1643359795330" duration="19153000" />
       <workItem from="1643442194759" duration="6436000" />
-      <workItem from="1644283171180" duration="19522000" />
+      <workItem from="1644283171180" duration="45485000" />
     </task>
+    <task id="LOCAL-00001" summary="mutilThreading">
+      <created>1644391994164</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644391994165</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,5 +201,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mutilThreading" />
+    <option name="LAST_COMMIT_MESSAGE" value="mutilThreading" />
   </component>
 </project>

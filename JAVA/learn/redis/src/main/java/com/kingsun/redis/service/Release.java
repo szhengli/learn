@@ -16,48 +16,57 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.nio.charset.StandardCharsets;
-import java.util.Map;
+import java.util.*;
+import java.util.regex.Pattern;
 
 @Service
 public class Release {
     @Autowired
     private StringRedisTemplate template;
 
-    @Autowired
-    private RedisTemplate redisTemplate;
+   public ArrayList<Map<String, String>>  get_all_branches(){
+       String releasePat = "202*";
+       Set<String> releaseList = new HashSet<>() ;
+       ArrayList<Map<String, String>> data = new ArrayList<>();
+       template.keys(releasePat).forEach((String release) ->{
+           releaseList.add(release.substring(0,8));
+       });
+
+       Set<String> releaseSortedList =  new TreeSet<>(new Comparator<String>() {
+           @Override
+           public int compare(String o1, String o2) {
+               return o2.compareTo(o1);
+           }
+       });
+
+       releaseSortedList.addAll(releaseList);
+       releaseSortedList.forEach((String branch)->{
+           Map<String, String> entry =  new HashMap<>();
+           entry.put("label", branch);
+           entry.put("value", branch);
+           data.add(entry);
+       });
+
+       return data;
+   }
 
 
 
-   public void writeHash(byte[] key, People person){
-       HashOperations<byte[], byte[], byte[]> hashOperations = redisTemplate.opsForHash();
-       HashMapper<Object, byte[], byte[]> mapper = new ObjectHashMapper();
-       Map<byte[], byte[]> map = mapper.toHash(person);
-
-       hashOperations.putAll(map);
 
 
+   public  ArrayList<Map<Object, Object>> get_release_records (String branch){
+       Set<String> releaseSys = template.keys(branch+":*");
+       ArrayList<Map<Object, Object>> releaseDetails = new ArrayList<>();
 
+       releaseSys.forEach((String service) ->{
+           Map<Object, Object>  details = template.opsForHash().entries(service);
+           releaseDetails.add(details);
+       });
 
-
-
+       return releaseDetails;
 
    }
 
 
-    public  void opRedis(){
-
-        template.execute(new RedisCallback<Object>() {
-            public Object doInRedis(RedisConnection connection) throws DataAccessException {
-                Long size = connection.dbSize();
-                // Can cast to StringRedisConnection if using a StringRedisTemplate
-                ((StringRedisConnection)connection).set("key", "value");
-              Map<String, String> all =  ((StringRedisConnection) connection).hGetAll("20220119:wxms");
-                all.forEach((String k, String v)->{
-                    System.out.println("key: "+ k + " " + "value: " + v);
-                });
-              return  all;
-            }
-        });
-    }
 
 }

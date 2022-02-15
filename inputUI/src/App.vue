@@ -8,8 +8,10 @@
 </style>
 <template>
 	<div align="center">
-		</br> </br>
-						分支发版情况查询  </br> </br>
+		</br>
+    </br>
+						分支发版情况查询
+    </br> </br>
 			  <el-select v-model="branch" placeholder="分支选择" @change="show_branch" >
 			    <el-option
 			      v-for="item in options"
@@ -19,7 +21,7 @@
 			    </el-option>
 			  </el-select>
 
-			  </el-aside>
+
 
 
 		  <el-table v-if="this.show"
@@ -98,18 +100,19 @@ export default {
 			 console.log(this.branch)
 			 sessionStorage.setItem('selectedRelease', this.branch)
 			 let selectedRelease = sessionStorage.getItem("selectedRelease")
-			 console.log(sessionStorage.getItem("selectedRelease") + "  ////////")
+			 //console.log(sessionStorage.getItem("selectedRelease") + "  ////////")
 
 			 this.axios.post('/api/svn/get_release_records/', {
-			     branch: selectedRelease,
-			     lastName: 'Flintstone'
+			     branch: selectedRelease
 			   })
 			   .then(function (response) {
 			 	self.datas = response.data;
-			 //	console.log(self.datas);
+			 	console.log("!!!!!!!!!!!!!")
+			 	console.log(response);
 
 			   })
 			   .catch(function (error) {
+			     console.log("xxxxxxx")
 			     console.log(error);
 			   });
 			   self.show = true
@@ -119,14 +122,7 @@ export default {
 
 
 	 mounted(){
-				this.axios({ method: 'post',
-				             url:"http://localhost:8080/demo/hello3",
-				             headers: {'city' : 'suzhou'},
-						   }).then(function(response){
-					console.log(response.data)
-				}).catch(function(err){
-					console.log(err)
-				})
+
 
 		           var self=this
 					this.axios.get('/api/svn/get_all_branches/', {
@@ -136,7 +132,7 @@ export default {
 					  .then(function (response) {
 
 						self.options= response.data;
-					//	console.log(self.options);
+						console.log(self.options);
 
 					  })
 					  .catch(function (error) {
@@ -159,7 +155,6 @@ export default {
 				},
 	 data(){
 		 return {
-			 show: 'show me yyy',
 			 datas:[],
 			 options: [],
 			 branch: '',
