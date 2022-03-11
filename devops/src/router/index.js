@@ -179,9 +179,57 @@ export const asyncRoutes = [
       },
       {
         path: 'polardb',
-        component: () => import('@/views/prod/polardb/index'),
+        component: () => import('@/views/prod/polardb'),
         meta: { title: 'PolarDB', roles: ['admin'] }
       },
+
+
+      {
+        path: 'middlev3',
+        name: 'middlev3',
+        component: () => import('@/views/prod/middlev3'),
+        redirect: 'middlev3/redis',
+        meta: { title: '中间件[v3]', roles: ['admin'] },
+        children: [
+          {
+            path: 'mq',
+            name: 'mq',
+            component: () => import('@/views/prod/middlev3/mq'),
+            meta: { title: 'RocketMQ', roles: ['admin'] }
+          },
+          {
+            path: 'redis',
+            name: 'redis',
+            component: () => import('@/views/prod/middlev3/redis'),
+            meta: { title: 'redis', roles: ['admin'] }
+          }]
+      },
+
+
+      {
+        path: 'middlev5',
+        name: 'middlevv5',
+        component: () => import('@/views/prod/middlev5'),
+        redirect: 'middlev5/redisjt',
+        meta: { title: '中间件[v5]', roles: ['admin'] },
+        children: [
+          {
+            path: 'mq',
+            name: 'mq',
+            component: () => import('@/views/prod/middlev5/mq'),
+            meta: { title: 'RocketMQ', roles: ['admin'] }
+          },
+          {
+            path: 'redisjt',
+            name: 'redisjt',
+            component: () => import('@/views/prod/middlev5/redisjt'),
+            meta: { title: 'redis', roles: ['admin'] }
+          },
+          
+          ]
+      },
+
+
       {
         path: 'netaccess',
         component: () => import('@/views/prod/netaccess/index'),

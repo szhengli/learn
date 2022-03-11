@@ -114,6 +114,7 @@ export default {
 
 
 	 mounted(){
+     console.log('yyyyyyyyyyyyyyyyyyyyyyyyyyyy')
 		           var self=this
             get_all_branches()
 					  .then(function (response) {

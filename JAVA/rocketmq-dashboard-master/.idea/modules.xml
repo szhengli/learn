@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rocketmq-dashboard-master/rocketmq-dashboard.iml" filepath="$PROJECT_DIR$/rocketmq-dashboard-master/rocketmq-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rocketmq-dashboard-master.iml" filepath="$PROJECT_DIR$/.idea/rocketmq-dashboard-master.iml" />
+    </modules>
+  </component>
+</project>

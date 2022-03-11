@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7818d36b-77dd-4f2f-b5ee-6cb9a9067421" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/devops/dubboProvider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/devops/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/DevopsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/DevopsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/aop/ControllerAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/aop/ControllerAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/aop/DefaultUsageTracked.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/aop/DefaultUsageTracked.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/aop/UsageTracked.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/aop/UsageTracked.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/configs/FilterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/configs/FilterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/configs/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/configs/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/controllers/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/controllers/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/controllers/UrsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/controllers/UrsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/dao/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/dao/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/dao/StudentMapper2.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/dao/StudentMapper2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/entity/Cloud.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/entity/Cloud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/entity/Compus.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/entity/Compus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/filters/ServiceFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/filters/ServiceFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/filters/ServiceFilter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/filters/ServiceFilter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/impl/CityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/impl/CityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/impl/DevopsLivenessProbe.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/impl/DevopsLivenessProbe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/impl/DevopsReadyProbe.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/impl/DevopsReadyProbe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/impl/DevopsStartupProbe.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/impl/DevopsStartupProbe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/impl/SampleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/impl/SampleImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/impl/SchoolServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/impl/SchoolServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/interceptor/ServiceInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/interceptor/ServiceInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/interfaces/CityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/interfaces/CityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/interfaces/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/interfaces/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/interfaces/SchoolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/interfaces/SchoolService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/interfaces/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/interfaces/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/proto/DemoService.proto" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/proto/DemoService.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/utils/Auditable.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/utils/Auditable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/utils/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/utils/Scheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/utils/StudentExceptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/utils/StudentExceptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/java/com/urs/devops/utils/StudentNotFindException.java" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/java/com/urs/devops/utils/StudentNotFindException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/resources/LogBack.xml" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/resources/LogBack.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/resources/META-INF/dubbo/org.apache.dubbo.qos.probe.LivenessProbe" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/resources/META-INF/dubbo/org.apache.dubbo.qos.probe.LivenessProbe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/resources/META-INF/dubbo/org.apache.dubbo.qos.probe.ReadinessProbe" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/resources/META-INF/dubbo/org.apache.dubbo.qos.probe.ReadinessProbe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/resources/META-INF/dubbo/org.apache.dubbo.qos.probe.StartupProbe" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/resources/META-INF/dubbo/org.apache.dubbo.qos.probe.StartupProbe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/resources/application-beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/resources/application-beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/resources/dubbo.properties" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/resources/dubbo.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/resources/dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/resources/dubbo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/resources/mappers/StudentMapper2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/resources/mappers/StudentMapper2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/resources/spring/dubbo-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/resources/spring/dubbo-provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/resources/templates/hello.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/resources/templates/hello.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devops/src/main/resources/templates/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/devops/dubboProvider/src/main/resources/templates/index.ftl" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="248MdQtFi2lt9cUhpmu9mSrNlmL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7818d36b-77dd-4f2f-b5ee-6cb9a9067421" name="Default Changelist" comment="" />
+      <created>1643007846975</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643007846975</updated>
+      <workItem from="1643007848463" duration="127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
