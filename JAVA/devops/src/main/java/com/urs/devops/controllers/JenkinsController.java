@@ -1,12 +1,15 @@
 package com.urs.devops.controllers;
 
+import com.urs.devops.entity.Job;
 import com.urs.devops.service.Jenkins;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
-@Controller
+import java.util.HashMap;
+import java.util.Map;
+
+@RestController
 @RequestMapping("/jenkins")
 public class JenkinsController {
 
@@ -19,4 +22,16 @@ public class JenkinsController {
         return  jenkins.build();
     }
 
+    @PostMapping("/job/changeBranch.do")
+    @ResponseBody
+    public  Map<String, Boolean> changeBranch(@RequestBody Job job){
+        Map<String, Boolean> res = new HashMap<>();
+        try {
+            System.out.println(jenkins.changeBranch(job.getService(), job.getBranch()) );
+            res.put("ok", true);
+        } catch (Exception ignored) {
+            res.put("ok", false);
+        }
+        return res;
+    }
 }

@@ -13,7 +13,7 @@
         <dubbo:parameter key="qos.accept.foreign.ip" value="true"/>
     </dubbo:application>
     <dubbo:registry address="zookeeper://192.168.2.2:2181" client="curator"  timeout="100000"/>
-    <dubbo:metadata-report address="zookeeper://192.168.2.50:2181" />
+    <dubbo:metadata-report address="zookeeper://192.168.2.2:2181" />
 
 
 
