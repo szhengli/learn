@@ -1,11 +1,13 @@
 <template>
 
 	<div>
-
+<meta name="referrer" content="no-referrer">
 	<button @click="bshow" > test</button>
     <transition name="slide-right">
 	<router-view></router-view>
     </transition>
+	
+	<img src="http://pics3.baidu.com/feed/5366d0160924ab187b9a0c04353afdc77a890bbb.jpeg?token=39566d75c8891676fa9882b96290b920"> 
 	<button @click="show" > change</button>
     <button @click="sub" > sub</button>
 	<br>

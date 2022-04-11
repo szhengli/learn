@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\admin\MqAdminExtObjectPool.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\admin\MQAdminFactory.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\admin\MQAdminPooledObjectFactory.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\App.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\aspect\admin\annotation\OriginalControllerReturnValue.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\aspect\admin\MQAdminAspect.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\config\AuthWebMVCConfigurerAdapter.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\config\RMQConfigure.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\controller\ClusterController.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\controller\ConsumerController.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\controller\DashboardController.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\controller\DlqMessageController.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\controller\LoginController.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\controller\MessageController.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\controller\MessageTraceController.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\controller\MonitorController.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\controller\NamesvrController.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\controller\OpsController.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\controller\ProducerController.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\controller\TestController.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\controller\TopicController.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\dingding\RobotClient.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;/\*&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\dingding\SendResult.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;/\*&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\dingding\SendTextMessage.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;/\*&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="11" severity="error" message="Not allow chinese character !" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="12" column="26" severity="error" message="Name &apos;WEBHOOK_TOKEN&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"/>
+<error line="18" severity="error" message="Not allow chinese character !" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="36" severity="error" message="Not allow chinese character !" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="39" severity="error" message="Not allow chinese character !" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="55" severity="error" message="Not allow chinese character !" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\dingding\TextMessage.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;/\*&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\exception\ServiceException.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\filter\HttpBasicAuthorizedFilter.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\interceptor\AuthInterceptor.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\ConnectionInfo.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\ConsumerGroupRollBackStat.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\ConsumerMonitorConfig.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\DlqMessageExcelModel.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\DlqMessageRequest.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\DlqMessageResendResult.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\GroupConsumeInfo.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\LoginInfo.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\LoginResult.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\MessagePage.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\MessagePageTask.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\MessageQueryByPage.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\MessageTraceView.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\MessageView.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\QueueOffsetInfo.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\QueueStatInfo.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\request\ConsumerConfigInfo.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\request\DeleteSubGroupRequest.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\request\MessageQuery.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\request\ResetOffsetRequest.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\request\SendTopicMessageRequest.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\request\TopicConfigInfo.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\TopicConsumerInfo.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\trace\MessageTraceGraph.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\trace\MessageTraceStatusEnum.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\trace\ProducerNode.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\trace\SubscriptionNode.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\trace\TraceNode.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\User.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\model\UserInfo.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\permisssion\Permission.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\permisssion\PermissionAspect.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\permisssion\UserRoleEnum.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\AbstractCommonService.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\checker\CheckerType.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\checker\impl\ClusterHealthCheckerImpl.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\checker\impl\TopicOnlyOneBrokerCheckerImpl.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\checker\RocketMqChecker.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\client\MQAdminExtImpl.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\client\MQAdminInstance.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\ClusterService.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\ConsumerService.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\DashboardCollectService.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\DashboardService.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\DlqMessageService.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\impl\AbstractFileStore.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\impl\ClusterServiceImpl.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\impl\ConsumerServiceImpl.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\impl\DashboardCollectServiceImpl.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\impl\DashboardServiceImpl.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\impl\DlqMessageServiceImpl.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\impl\LoginServiceImpl.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\impl\MessageServiceImpl.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\impl\MessageTraceServiceImpl.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\impl\MonitorServiceImpl.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\impl\OpsServiceImpl.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\impl\PermissionServiceImpl.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\impl\ProducerServiceImpl.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\impl\TopicServiceImpl.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\impl\UserServiceImpl.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\LoginService.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\MessageService.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\MessageTraceService.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\MonitorService.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\OpsService.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\PermissionService.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\ProducerService.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\TopicService.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\service\UserService.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\support\GlobalExceptionHandler.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\support\GlobalRestfulResponseBodyAdvice.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\support\JsonResult.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\task\DashboardCollectTask.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\task\MonitorTask.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\util\ExcelUtil.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\util\JsonUtil.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\util\MatcherUtil.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\util\MsgTraceDecodeUtil.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\java\org\apache\rocketmq\dashboard\util\WebUtil.java">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\resources\application.properties">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\main\resources\users.properties">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\test\resources\application.properties">
+</file>
+<file name="C:\Users\Administrator\Desktop\rocketmq-dashboard-master\rocketmq-dashboard-master\src\test\resources\users.properties">
+</file>
+</checkstyle>

@@ -27,7 +27,7 @@ public class JenkinsController {
     public  Map<String, Boolean> changeBranch(@RequestBody Job job){
         Map<String, Boolean> res = new HashMap<>();
         try {
-            System.out.println(jenkins.changeBranch(job.getService(), job.getBranch()) );
+            jenkins.changeBranch(job.getService(), job.getBranch()) ;
             res.put("ok", true);
         } catch (Exception ignored) {
             res.put("ok", false);

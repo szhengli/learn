@@ -10,5 +10,6 @@ import org.springframework.stereotype.Component;
 @Data
 public class Compus implements ApplicationContextAware {
     private ApplicationContext applicationContext;
+
     private String name = "james";
 }

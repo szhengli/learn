@@ -35,20 +35,28 @@
 		    <el-table-column
 		      prop= "requested"
 		      label="发布单提交"
+          :filters="[{ text: 'yes', value: 'yes' }, { text: 'no', value: '' }]"
+          :filter-method="filterRequested"
 		      width="180">
+
 		    </el-table-column>
 		    <el-table-column
 		      prop="block"
 		      label="封板"
+          :filters="[{ text: 'yes', value: 'yes' }, { text: 'no', value: '' }]"
+          :filter-method="filterBlock"
 		      width="180">
 		    </el-table-column>
 		  	<el-table-column
 		  	  prop="released"
+          :filters="[{ text: 'yes', value: 'yes' }, { text: 'no', value: '' }]"
+          :filter-method="filterReleased"
 		  	  label="已发布"
 		  	  >
 		  	</el-table-column>
 			<el-table-column
 			  prop="created"
+        sortable
 			  label="创建时间"
 			  >
 			</el-table-column>
@@ -84,7 +92,31 @@
 export default {
 
 	    methods: {
-	      tableRowClassName({row, rowIndex}) {
+
+        filterRequested(value, row) {
+          if (row.requested == undefined){
+            row.requested = ""
+          }
+          return row.requested === value
+          },
+
+        filterReleased(value, row) {
+          if (row.released == undefined){
+            row.released = ""
+          }
+          return row.released=== value
+        },
+
+        filterBlock(value, row) {
+          if (row.block == undefined){
+            row.block = ""
+          }
+          return row.block === value
+        },
+
+
+
+        tableRowClassName({row, rowIndex}) {
 			if (this.datas[rowIndex].released == "yes" ){
 					return  'success-row';
 				} else if (this.datas[rowIndex].released == "yes"){
@@ -106,7 +138,7 @@ export default {
 			   })
 			   .then(function (response) {
 			 	self.datas = response.data;
-			 //	console.log(self.datas);
+			 	console.log(self.datas);
 
 			   })
 			   .catch(function (error) {
@@ -119,14 +151,6 @@ export default {
 
 
 	 mounted(){
-				this.axios({ method: 'post',
-				             url:"http://localhost:8080/demo/hello3",
-				             headers: {'city' : 'suzhou'},
-						   }).then(function(response){
-					console.log(response.data)
-				}).catch(function(err){
-					console.log(err)
-				})
 
 		           var self=this
 					this.axios.get('/api/svn/get_all_branches/', {

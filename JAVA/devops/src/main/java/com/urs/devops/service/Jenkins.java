@@ -27,7 +27,7 @@ public class Jenkins {
         return  new JenkinsServer(new URI(jenkinsUrl), username, password);
     }
 
-    public String changeBranch(String service, String branch) throws URISyntaxException, IOException, DocumentException {
+    public void changeBranch(String service, String branch) throws URISyntaxException, IOException, DocumentException {
             String jobName = "devv5-zl-actsv5";
             JenkinsServer jenkinsServer = getJk() ;
             String jobConfig = jenkinsServer.getJobXml(jobName);
@@ -43,7 +43,6 @@ public class Jenkins {
             String newConfig =  doc.asXML();
             jenkinsServer.updateJob(jobName, newConfig);
 
-            return newConfig;
 
 
     }
